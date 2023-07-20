@@ -60,15 +60,17 @@
                           <Component id="btnDirigir" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnAsignarAula" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnHorario" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnReserva" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnSetGrab" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnInstrumento" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnAula" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnAsignatura" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnCurso" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnDashboard" alignment="0" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="btnAsiHorario" min="-2" pref="164" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnAsiHorario" min="-2" pref="164" max="-2" attributes="0"/>
+                                  <Component id="btnReserva" min="-2" pref="177" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -104,8 +106,8 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnSetGrab" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnDirigir" pref="39" max="32767" attributes="0"/>
-                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                      <Component id="btnDirigir" max="32767" attributes="0"/>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -148,7 +150,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -165,7 +167,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/curso.png"/>
+                  <Image iconType="3" name="/imagenes/ensenando (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Curso"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -173,7 +175,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -190,7 +192,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/libros.png"/>
+                  <Image iconType="3" name="/imagenes/libros (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Asignatura"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -198,7 +200,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -215,7 +217,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/asignacionasi.png"/>
+                  <Image iconType="3" name="/imagenes/producto (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Asignar Asignatura"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -223,7 +225,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -240,7 +242,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/aulan.png"/>
+                  <Image iconType="3" name="/imagenes/aula (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Aula"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -248,7 +250,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -265,15 +267,15 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/guitarra.png"/>
+                  <Image iconType="3" name="/imagenes/danza (1).png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Instrumento"/>
+                <Property name="text" type="java.lang.String" value="Indumentaria"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -290,15 +292,15 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/grabar.png"/>
+                  <Image iconType="3" name="/imagenes/personas (1).png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Set de Grabacion"/>
+                <Property name="text" type="java.lang.String" value="Evento"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -315,7 +317,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/reservaa.png"/>
+                  <Image iconType="3" name="/imagenes/reserva-en-linea (1) (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Reserva"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -323,7 +325,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -340,7 +342,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/calendario_1.png"/>
+                  <Image iconType="3" name="/imagenes/calendario (1) (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Horario"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -348,7 +350,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -365,7 +367,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/eleccion.png"/>
+                  <Image iconType="3" name="/imagenes/seleccionar (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Asignar Horario"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -373,7 +375,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
               </Properties>
             </Component>
@@ -389,7 +391,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/diagrama.png"/>
+                  <Image iconType="3" name="/imagenes/delegar (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Asignar aula"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -397,7 +399,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -414,7 +416,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/banda-sonora.png"/>
+                  <Image iconType="3" name="/imagenes/gerente (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Asignar director"/>
                 <Property name="autoscrolls" type="boolean" value="true"/>
@@ -422,7 +424,7 @@
                   <Border info="null"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Cursor de Mano"/>
+                  <Color id="Default Cursor"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
@@ -466,8 +468,8 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="421" max="-2" attributes="0"/>
-                          <Component id="btnProductor" pref="117" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="350" max="-2" attributes="0"/>
+                          <Component id="btnProductor" min="-2" pref="188" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                           <Component id="btnDocente" pref="105" max="32767" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -477,13 +479,13 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="btnMatricula" pref="130" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btnRegistrarPersona" pref="46" max="32767" attributes="0"/>
+                          <Component id="btnRegistrarPersona" pref="51" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                          <Component id="jLabel1" min="-2" pref="380" max="-2" attributes="0"/>
-                          <EmptySpace pref="842" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="486" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -520,7 +522,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/imagenes/nota-musical.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Academia Musical Rednote "/>
+                    <Property name="text" type="java.lang.String" value="Academia Odyssey Dnce Institute"/>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                     <Property name="verticalAlignment" type="int" value="3"/>
                     <Property name="horizontalTextPosition" type="int" value="2"/>
@@ -545,7 +547,7 @@
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -569,7 +571,7 @@
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -587,13 +589,13 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/imagenes/productorn.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Productor"/>
-                    <Property name="toolTipText" type="java.lang.String" value="Registrar productor"/>
+                    <Property name="text" type="java.lang.String" value="Director Artistico"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Registrar director"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -617,7 +619,7 @@
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -641,7 +643,7 @@
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -665,7 +667,7 @@
                       <Border info="null"/>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                      <Color id="Cursor de Mano"/>
+                      <Color id="Default Cursor"/>
                     </Property>
                   </Properties>
                 </Component>

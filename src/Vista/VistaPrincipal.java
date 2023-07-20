@@ -235,116 +235,116 @@ public JButton getBtnAdministrador() {
         btnDashboard.setText("Dashboard");
         btnDashboard.setAutoscrolls(true);
         btnDashboard.setBorder(null);
-        btnDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnCurso.setBackground(new java.awt.Color(46, 49, 49));
         btnCurso.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnCurso.setForeground(new java.awt.Color(255, 255, 255));
-        btnCurso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/curso.png"))); // NOI18N
+        btnCurso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ensenando (1).png"))); // NOI18N
         btnCurso.setText("Curso");
         btnCurso.setAutoscrolls(true);
         btnCurso.setBorder(null);
-        btnCurso.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCurso.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnCurso.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnAsignatura.setBackground(new java.awt.Color(46, 49, 49));
         btnAsignatura.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnAsignatura.setForeground(new java.awt.Color(255, 255, 255));
-        btnAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/libros.png"))); // NOI18N
+        btnAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/libros (1).png"))); // NOI18N
         btnAsignatura.setText("Asignatura");
         btnAsignatura.setAutoscrolls(true);
         btnAsignatura.setBorder(null);
-        btnAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignatura.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnAsignarAsignatura.setBackground(new java.awt.Color(46, 49, 49));
         btnAsignarAsignatura.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnAsignarAsignatura.setForeground(new java.awt.Color(255, 255, 255));
-        btnAsignarAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignacionasi.png"))); // NOI18N
+        btnAsignarAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/producto (1).png"))); // NOI18N
         btnAsignarAsignatura.setText("Asignar Asignatura");
         btnAsignarAsignatura.setAutoscrolls(true);
         btnAsignarAsignatura.setBorder(null);
-        btnAsignarAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAsignarAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignarAsignatura.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnAula.setBackground(new java.awt.Color(46, 49, 49));
         btnAula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnAula.setForeground(new java.awt.Color(255, 255, 255));
-        btnAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/aulan.png"))); // NOI18N
+        btnAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/aula (1).png"))); // NOI18N
         btnAula.setText("Aula");
         btnAula.setAutoscrolls(true);
         btnAula.setBorder(null);
-        btnAula.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAula.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnInstrumento.setBackground(new java.awt.Color(46, 49, 49));
         btnInstrumento.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnInstrumento.setForeground(new java.awt.Color(255, 255, 255));
-        btnInstrumento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guitarra.png"))); // NOI18N
-        btnInstrumento.setText("Instrumento");
+        btnInstrumento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/danza (1).png"))); // NOI18N
+        btnInstrumento.setText("Indumentaria");
         btnInstrumento.setAutoscrolls(true);
         btnInstrumento.setBorder(null);
-        btnInstrumento.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnInstrumento.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnInstrumento.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnSetGrab.setBackground(new java.awt.Color(46, 49, 49));
         btnSetGrab.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnSetGrab.setForeground(new java.awt.Color(255, 255, 255));
-        btnSetGrab.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/grabar.png"))); // NOI18N
-        btnSetGrab.setText("Set de Grabacion");
+        btnSetGrab.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas (1).png"))); // NOI18N
+        btnSetGrab.setText("Evento");
         btnSetGrab.setAutoscrolls(true);
         btnSetGrab.setBorder(null);
-        btnSetGrab.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnSetGrab.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnSetGrab.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnReserva.setBackground(new java.awt.Color(46, 49, 49));
         btnReserva.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnReserva.setForeground(new java.awt.Color(255, 255, 255));
-        btnReserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reservaa.png"))); // NOI18N
+        btnReserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reserva-en-linea (1) (1).png"))); // NOI18N
         btnReserva.setText("Reserva");
         btnReserva.setAutoscrolls(true);
         btnReserva.setBorder(null);
-        btnReserva.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnReserva.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnReserva.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnHorario.setBackground(new java.awt.Color(46, 49, 49));
         btnHorario.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnHorario.setForeground(new java.awt.Color(255, 255, 255));
-        btnHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/calendario_1.png"))); // NOI18N
+        btnHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/calendario (1) (1).png"))); // NOI18N
         btnHorario.setText("Horario");
         btnHorario.setAutoscrolls(true);
         btnHorario.setBorder(null);
-        btnHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnHorario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnAsiHorario.setBackground(new java.awt.Color(46, 49, 49));
         btnAsiHorario.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnAsiHorario.setForeground(new java.awt.Color(255, 255, 255));
-        btnAsiHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eleccion.png"))); // NOI18N
+        btnAsiHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/seleccionar (1).png"))); // NOI18N
         btnAsiHorario.setText("Asignar Horario");
         btnAsiHorario.setAutoscrolls(true);
         btnAsiHorario.setBorder(null);
-        btnAsiHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAsiHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnAsignarAula.setBackground(new java.awt.Color(46, 49, 49));
         btnAsignarAula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnAsignarAula.setForeground(new java.awt.Color(255, 255, 255));
-        btnAsignarAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/diagrama.png"))); // NOI18N
+        btnAsignarAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/delegar (1).png"))); // NOI18N
         btnAsignarAula.setText("Asignar aula");
         btnAsignarAula.setAutoscrolls(true);
         btnAsignarAula.setBorder(null);
-        btnAsignarAula.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAsignarAula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignarAula.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         btnDirigir.setBackground(new java.awt.Color(46, 49, 49));
         btnDirigir.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnDirigir.setForeground(new java.awt.Color(255, 255, 255));
-        btnDirigir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/banda-sonora.png"))); // NOI18N
+        btnDirigir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/gerente (1).png"))); // NOI18N
         btnDirigir.setText("Asignar director");
         btnDirigir.setAutoscrolls(true);
         btnDirigir.setBorder(null);
-        btnDirigir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnDirigir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnDirigir.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -362,7 +362,6 @@ public JButton getBtnAdministrador() {
                     .addComponent(btnDirigir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnAsignarAula, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnHorario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnReserva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnSetGrab, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnInstrumento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnAula, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -370,7 +369,9 @@ public JButton getBtnAdministrador() {
                     .addComponent(btnCurso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnDashboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(btnAsiHorario, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnAsiHorario, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnReserva, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -402,8 +403,8 @@ public JButton getBtnAdministrador() {
                 .addGap(18, 18, 18)
                 .addComponent(btnSetGrab, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addComponent(btnDirigir, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addComponent(btnDirigir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel4, java.awt.BorderLayout.CENTER);
@@ -420,7 +421,7 @@ public JButton getBtnAdministrador() {
         jLabel1.setFont(new java.awt.Font("Roboto", 1, 26)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nota-musical.png"))); // NOI18N
-        jLabel1.setText("Academia Musical Rednote ");
+        jLabel1.setText("Academia Odyssey Dnce Institute");
         jLabel1.setToolTipText("");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
@@ -431,7 +432,7 @@ public JButton getBtnAdministrador() {
         btnRegistrarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         btnRegistrarPersona.setToolTipText("Registrar persona");
         btnRegistrarPersona.setBorder(null);
-        btnRegistrarPersona.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistrarPersona.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnEstudiante.setBackground(new java.awt.Color(255, 255, 255));
         btnEstudiante.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
@@ -440,16 +441,16 @@ public JButton getBtnAdministrador() {
         btnEstudiante.setText("Estudiante");
         btnEstudiante.setToolTipText("Registrar estudiante");
         btnEstudiante.setBorder(null);
-        btnEstudiante.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnEstudiante.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnProductor.setBackground(new java.awt.Color(255, 255, 255));
         btnProductor.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
         btnProductor.setForeground(new java.awt.Color(153, 0, 0));
         btnProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/productorn.png"))); // NOI18N
-        btnProductor.setText("Productor");
-        btnProductor.setToolTipText("Registrar productor");
+        btnProductor.setText("Director Artistico");
+        btnProductor.setToolTipText("Registrar director");
         btnProductor.setBorder(null);
-        btnProductor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnProductor.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnDocente.setBackground(new java.awt.Color(255, 255, 255));
         btnDocente.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
@@ -458,7 +459,7 @@ public JButton getBtnAdministrador() {
         btnDocente.setText("Docente");
         btnDocente.setToolTipText("Registrar docente");
         btnDocente.setBorder(null);
-        btnDocente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnDocente.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnAdministrador.setBackground(new java.awt.Color(255, 255, 255));
         btnAdministrador.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
@@ -467,7 +468,7 @@ public JButton getBtnAdministrador() {
         btnAdministrador.setText("Administrador");
         btnAdministrador.setToolTipText("Registrar administrador");
         btnAdministrador.setBorder(null);
-        btnAdministrador.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAdministrador.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnMatricula.setBackground(new java.awt.Color(255, 255, 255));
         btnMatricula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
@@ -476,15 +477,15 @@ public JButton getBtnAdministrador() {
         btnMatricula.setText("Matrícula");
         btnMatricula.setToolTipText("Realizar matrícula");
         btnMatricula.setBorder(null);
-        btnMatricula.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMatricula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(421, 421, 421)
-                .addComponent(btnProductor, javax.swing.GroupLayout.DEFAULT_SIZE, 117, Short.MAX_VALUE)
+                .addGap(350, 350, 350)
+                .addComponent(btnProductor, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addComponent(btnDocente, javax.swing.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
@@ -494,12 +495,12 @@ public JButton getBtnAdministrador() {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnMatricula, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnRegistrarPersona, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
+                .addComponent(btnRegistrarPersona, javax.swing.GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
                 .addGap(48, 48, 48))
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(842, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
