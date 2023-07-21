@@ -20,7 +20,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
      */
     public VistaPrincipal() {
         initComponents();
-        this.setTitle("DashBoard");
+        this.setTitle("Tablero");
     }
 public JButton getBtnAdministrador() {
         return btnAdministrador;
@@ -217,7 +217,7 @@ public JButton getBtnAdministrador() {
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel4.setBackground(new java.awt.Color(46, 49, 49));
+        jPanel4.setBackground(new java.awt.Color(0, 153, 153));
         jPanel4.setAutoscrolls(true);
 
         lblUsuario.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
@@ -228,122 +228,110 @@ public JButton getBtnAdministrador() {
         lblUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lblUsuario.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        btnDashboard.setBackground(new java.awt.Color(46, 49, 49));
-        btnDashboard.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnDashboard.setForeground(new java.awt.Color(255, 255, 255));
+        btnDashboard.setBackground(new java.awt.Color(0, 153, 153));
+        btnDashboard.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnDashboard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dash.png"))); // NOI18N
-        btnDashboard.setText("Dashboard");
+        btnDashboard.setText("Tablero");
         btnDashboard.setAutoscrolls(true);
-        btnDashboard.setBorder(null);
+        btnDashboard.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnCurso.setBackground(new java.awt.Color(46, 49, 49));
-        btnCurso.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnCurso.setForeground(new java.awt.Color(255, 255, 255));
+        btnCurso.setBackground(new java.awt.Color(0, 153, 153));
+        btnCurso.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCurso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ensenando (1).png"))); // NOI18N
         btnCurso.setText("Curso");
         btnCurso.setAutoscrolls(true);
-        btnCurso.setBorder(null);
+        btnCurso.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCurso.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnCurso.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnAsignatura.setBackground(new java.awt.Color(46, 49, 49));
-        btnAsignatura.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAsignatura.setForeground(new java.awt.Color(255, 255, 255));
+        btnAsignatura.setBackground(new java.awt.Color(0, 153, 153));
+        btnAsignatura.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/libros (1).png"))); // NOI18N
         btnAsignatura.setText("Asignatura");
         btnAsignatura.setAutoscrolls(true);
-        btnAsignatura.setBorder(null);
+        btnAsignatura.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignatura.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnAsignarAsignatura.setBackground(new java.awt.Color(46, 49, 49));
-        btnAsignarAsignatura.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAsignarAsignatura.setForeground(new java.awt.Color(255, 255, 255));
+        btnAsignarAsignatura.setBackground(new java.awt.Color(0, 153, 153));
+        btnAsignarAsignatura.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAsignarAsignatura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/producto (1).png"))); // NOI18N
         btnAsignarAsignatura.setText("Asignar Asignatura");
         btnAsignarAsignatura.setAutoscrolls(true);
-        btnAsignarAsignatura.setBorder(null);
+        btnAsignarAsignatura.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAsignarAsignatura.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignarAsignatura.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnAula.setBackground(new java.awt.Color(46, 49, 49));
-        btnAula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAula.setForeground(new java.awt.Color(255, 255, 255));
+        btnAula.setBackground(new java.awt.Color(0, 153, 153));
+        btnAula.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/aula (1).png"))); // NOI18N
         btnAula.setText("Aula");
         btnAula.setAutoscrolls(true);
-        btnAula.setBorder(null);
+        btnAula.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAula.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnInstrumento.setBackground(new java.awt.Color(46, 49, 49));
-        btnInstrumento.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnInstrumento.setForeground(new java.awt.Color(255, 255, 255));
+        btnInstrumento.setBackground(new java.awt.Color(0, 153, 153));
+        btnInstrumento.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnInstrumento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/danza (1).png"))); // NOI18N
         btnInstrumento.setText("Indumentaria");
         btnInstrumento.setAutoscrolls(true);
-        btnInstrumento.setBorder(null);
+        btnInstrumento.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnInstrumento.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnInstrumento.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnSetGrab.setBackground(new java.awt.Color(46, 49, 49));
-        btnSetGrab.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnSetGrab.setForeground(new java.awt.Color(255, 255, 255));
+        btnSetGrab.setBackground(new java.awt.Color(0, 153, 153));
+        btnSetGrab.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnSetGrab.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas (1).png"))); // NOI18N
         btnSetGrab.setText("Evento");
         btnSetGrab.setAutoscrolls(true);
-        btnSetGrab.setBorder(null);
+        btnSetGrab.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSetGrab.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnSetGrab.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnReserva.setBackground(new java.awt.Color(46, 49, 49));
-        btnReserva.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnReserva.setForeground(new java.awt.Color(255, 255, 255));
+        btnReserva.setBackground(new java.awt.Color(0, 153, 153));
+        btnReserva.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnReserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reserva-en-linea (1) (1).png"))); // NOI18N
         btnReserva.setText("Reserva");
         btnReserva.setAutoscrolls(true);
-        btnReserva.setBorder(null);
+        btnReserva.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnReserva.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnReserva.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnHorario.setBackground(new java.awt.Color(46, 49, 49));
-        btnHorario.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnHorario.setForeground(new java.awt.Color(255, 255, 255));
+        btnHorario.setBackground(new java.awt.Color(0, 153, 153));
+        btnHorario.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/calendario (1) (1).png"))); // NOI18N
         btnHorario.setText("Horario");
         btnHorario.setAutoscrolls(true);
-        btnHorario.setBorder(null);
+        btnHorario.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnHorario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnAsiHorario.setBackground(new java.awt.Color(46, 49, 49));
-        btnAsiHorario.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAsiHorario.setForeground(new java.awt.Color(255, 255, 255));
+        btnAsiHorario.setBackground(new java.awt.Color(0, 153, 153));
+        btnAsiHorario.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAsiHorario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/seleccionar (1).png"))); // NOI18N
         btnAsiHorario.setText("Asignar Horario");
         btnAsiHorario.setAutoscrolls(true);
-        btnAsiHorario.setBorder(null);
+        btnAsiHorario.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAsiHorario.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnAsignarAula.setBackground(new java.awt.Color(46, 49, 49));
-        btnAsignarAula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAsignarAula.setForeground(new java.awt.Color(255, 255, 255));
+        btnAsignarAula.setBackground(new java.awt.Color(0, 153, 153));
+        btnAsignarAula.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAsignarAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/delegar (1).png"))); // NOI18N
         btnAsignarAula.setText("Asignar aula");
         btnAsignarAula.setAutoscrolls(true);
-        btnAsignarAula.setBorder(null);
+        btnAsignarAula.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAsignarAula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnAsignarAula.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        btnDirigir.setBackground(new java.awt.Color(46, 49, 49));
-        btnDirigir.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnDirigir.setForeground(new java.awt.Color(255, 255, 255));
+        btnDirigir.setBackground(new java.awt.Color(0, 153, 153));
+        btnDirigir.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnDirigir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/gerente (1).png"))); // NOI18N
         btnDirigir.setText("Asignar director");
         btnDirigir.setAutoscrolls(true);
-        btnDirigir.setBorder(null);
+        btnDirigir.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnDirigir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnDirigir.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
@@ -404,7 +392,7 @@ public JButton getBtnAdministrador() {
                 .addComponent(btnSetGrab, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(btnDirigir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel4, java.awt.BorderLayout.CENTER);
@@ -415,68 +403,62 @@ public JButton getBtnAdministrador() {
 
         jPanel2.setLayout(new java.awt.BorderLayout());
 
-        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel6.setBackground(new java.awt.Color(0, 153, 153));
         jPanel6.setAutoscrolls(true);
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Roboto", 1, 26)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nota-musical.png"))); // NOI18N
-        jLabel1.setText("Academia Odyssey Dnce Institute");
+        jLabel1.setText("ACADEMIA DE BAILE ODYSSEY DANCE INSTITUTE");
         jLabel1.setToolTipText("");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
 
-        btnRegistrarPersona.setBackground(new java.awt.Color(255, 255, 255));
-        btnRegistrarPersona.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnRegistrarPersona.setForeground(new java.awt.Color(255, 255, 255));
+        btnRegistrarPersona.setBackground(new java.awt.Color(0, 153, 153));
+        btnRegistrarPersona.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnRegistrarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         btnRegistrarPersona.setToolTipText("Registrar persona");
-        btnRegistrarPersona.setBorder(null);
+        btnRegistrarPersona.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnRegistrarPersona.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnEstudiante.setBackground(new java.awt.Color(255, 255, 255));
-        btnEstudiante.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnEstudiante.setForeground(new java.awt.Color(153, 0, 0));
+        btnEstudiante.setBackground(new java.awt.Color(0, 153, 153));
+        btnEstudiante.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnEstudiante.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estudi.png"))); // NOI18N
         btnEstudiante.setText("Estudiante");
         btnEstudiante.setToolTipText("Registrar estudiante");
-        btnEstudiante.setBorder(null);
+        btnEstudiante.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnEstudiante.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnProductor.setBackground(new java.awt.Color(255, 255, 255));
-        btnProductor.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnProductor.setForeground(new java.awt.Color(153, 0, 0));
-        btnProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/productorn.png"))); // NOI18N
+        btnProductor.setBackground(new java.awt.Color(0, 153, 153));
+        btnProductor.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/director.png"))); // NOI18N
         btnProductor.setText("Director Artistico");
         btnProductor.setToolTipText("Registrar director");
-        btnProductor.setBorder(null);
+        btnProductor.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnProductor.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnDocente.setBackground(new java.awt.Color(255, 255, 255));
-        btnDocente.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnDocente.setForeground(new java.awt.Color(153, 0, 0));
+        btnDocente.setBackground(new java.awt.Color(0, 153, 153));
+        btnDocente.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnDocente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/docente.png"))); // NOI18N
         btnDocente.setText("Docente");
         btnDocente.setToolTipText("Registrar docente");
-        btnDocente.setBorder(null);
+        btnDocente.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnDocente.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnAdministrador.setBackground(new java.awt.Color(255, 255, 255));
-        btnAdministrador.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnAdministrador.setForeground(new java.awt.Color(153, 0, 0));
+        btnAdministrador.setBackground(new java.awt.Color(0, 153, 153));
+        btnAdministrador.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAdministrador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/gerente.png"))); // NOI18N
         btnAdministrador.setText("Administrador");
         btnAdministrador.setToolTipText("Registrar administrador");
-        btnAdministrador.setBorder(null);
+        btnAdministrador.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAdministrador.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnMatricula.setBackground(new java.awt.Color(255, 255, 255));
-        btnMatricula.setFont(new java.awt.Font("Roboto Medium", 0, 16)); // NOI18N
-        btnMatricula.setForeground(new java.awt.Color(153, 0, 0));
+        btnMatricula.setBackground(new java.awt.Color(0, 153, 153));
+        btnMatricula.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnMatricula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/matricula_1.png"))); // NOI18N
         btnMatricula.setText("Matrícula");
         btnMatricula.setToolTipText("Realizar matrícula");
-        btnMatricula.setBorder(null);
+        btnMatricula.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnMatricula.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -484,23 +466,23 @@ public JButton getBtnAdministrador() {
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(350, 350, 350)
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 704, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(516, Short.MAX_VALUE))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(143, 143, 143)
                 .addComponent(btnProductor, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
-                .addComponent(btnDocente, javax.swing.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
+                .addComponent(btnDocente, javax.swing.GroupLayout.DEFAULT_SIZE, 152, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addComponent(btnEstudiante, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
+                .addComponent(btnEstudiante, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
                 .addGap(30, 30, 30)
-                .addComponent(btnAdministrador, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
+                .addComponent(btnAdministrador, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnMatricula, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                .addComponent(btnMatricula, javax.swing.GroupLayout.DEFAULT_SIZE, 177, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnRegistrarPersona, javax.swing.GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
-                .addGap(48, 48, 48))
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(btnRegistrarPersona, javax.swing.GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -79,9 +79,10 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
             e1.printStackTrace();
         }
 
-        panelFondo.setBackground(new java.awt.Color(255, 255, 255));
+        panelFondo.setBackground(new java.awt.Color(204, 204, 204));
 
-        panelestado.setBackground(new java.awt.Color(255, 255, 255));
+        panelestado.setBackground(new java.awt.Color(204, 204, 204));
+        panelestado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         reservas.setBackground(new java.awt.Color(102, 255, 204));
         reservas.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
@@ -104,7 +105,6 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         estadiantes.setOpaque(true);
 
         lblEstudiantes.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
-        lblEstudiantes.setForeground(new java.awt.Color(102, 0, 0));
         lblEstudiantes.setText("0");
 
         docentes.setBackground(new java.awt.Color(153, 255, 153));
@@ -118,36 +118,32 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         docentes.setOpaque(true);
 
         lblDocentes.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
-        lblDocentes.setForeground(new java.awt.Color(102, 0, 0));
         lblDocentes.setText("0");
 
         productores1.setBackground(new java.awt.Color(153, 204, 255));
         productores1.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
         productores1.setForeground(new java.awt.Color(255, 255, 255));
         productores1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        productores1.setText("Productores");
+        productores1.setText("Directores Artisticos");
         productores1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         productores1.setFocusable(false);
         productores1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         productores1.setOpaque(true);
 
         lblProductores.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
-        lblProductores.setForeground(new java.awt.Color(102, 0, 0));
         lblProductores.setText("0");
 
         lblReservas.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
-        lblReservas.setForeground(new java.awt.Color(102, 0, 0));
         lblReservas.setText("0");
 
         lblInstrumentos.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
-        lblInstrumentos.setForeground(new java.awt.Color(102, 0, 0));
         lblInstrumentos.setText("0");
 
         reservas1.setBackground(new java.awt.Color(255, 153, 153));
         reservas1.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
         reservas1.setForeground(new java.awt.Color(255, 255, 255));
         reservas1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        reservas1.setText("Instrumentos");
+        reservas1.setText("Indumentaria ");
         reservas1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         reservas1.setFocusable(false);
         reservas1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -158,42 +154,34 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         panelestadoLayout.setHorizontalGroup(
             panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelestadoLayout.createSequentialGroup()
-                .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelestadoLayout.createSequentialGroup()
-                        .addGap(2, 2, 2)
-                        .addComponent(estadiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(docentes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelestadoLayout.createSequentialGroup()
-                        .addGap(69, 69, 69)
-                        .addComponent(lblEstudiantes)
-                        .addGap(193, 193, 193)
-                        .addComponent(lblDocentes)))
-                .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelestadoLayout.createSequentialGroup()
-                        .addGap(45, 45, 45)
-                        .addComponent(productores1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(reservas, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelestadoLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblProductores)
-                        .addGap(186, 186, 186)
-                        .addComponent(lblReservas)
-                        .addGap(68, 68, 68)))
+                .addContainerGap()
+                .addComponent(estadiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(45, 45, 45)
+                .addComponent(docentes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(45, 45, 45)
+                .addComponent(productores1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(35, 35, 35)
+                .addComponent(reservas, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelestadoLayout.createSequentialGroup()
-                        .addComponent(reservas1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(23, 23, 23))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelestadoLayout.createSequentialGroup()
-                        .addComponent(lblInstrumentos)
-                        .addGap(92, 92, 92))))
+                .addComponent(reservas1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelestadoLayout.createSequentialGroup()
+                .addGap(73, 73, 73)
+                .addComponent(lblEstudiantes)
+                .addGap(193, 193, 193)
+                .addComponent(lblDocentes)
+                .addGap(199, 199, 199)
+                .addComponent(lblProductores)
+                .addGap(186, 186, 186)
+                .addComponent(lblReservas)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(lblInstrumentos)
+                .addGap(80, 80, 80))
         );
         panelestadoLayout.setVerticalGroup(
             panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelestadoLayout.createSequentialGroup()
-                .addContainerGap(24, Short.MAX_VALUE)
+                .addContainerGap(20, Short.MAX_VALUE)
                 .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(estadiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -210,24 +198,22 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
                         .addComponent(lblProductores, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(lblEstudiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblInstrumentos, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         jtxtTituloMenu.setFont(new java.awt.Font("Roboto Black", 1, 24)); // NOI18N
-        jtxtTituloMenu.setForeground(new java.awt.Color(155, 12, 27));
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dash.png"))); // NOI18N
-        jtxtTituloMenu.setText("  Dashboard");
+        jtxtTituloMenu.setText("Tablero");
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 48)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/instru.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/danzas.jpg"))); // NOI18N
         jLabel3.setToolTipText("");
         jLabel3.setAutoscrolls(true);
 
         jLabel4.setFont(new java.awt.Font("Roboto", 1, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(102, 0, 0));
         jLabel4.setText("Estado");
 
         javax.swing.GroupLayout panelFondoLayout = new javax.swing.GroupLayout(panelFondo);
@@ -236,30 +222,30 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
             panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(panelFondoLayout.createSequentialGroup()
-                .addGap(36, 36, 36)
-                .addComponent(jtxtTituloMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelFondoLayout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addComponent(jtxtTituloMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1076, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
-                        .addComponent(panelestado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(22, 22, 22))))
+                        .addContainerGap()
+                        .addComponent(panelestado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(panelFondoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1076, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panelFondoLayout.setVerticalGroup(
             panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
                 .addComponent(jtxtTituloMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(panelestado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(54, 54, 54))
+                .addGap(88, 88, 88))
         );
 
         getContentPane().add(panelFondo, java.awt.BorderLayout.CENTER);

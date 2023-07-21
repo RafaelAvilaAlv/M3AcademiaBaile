@@ -90,7 +90,7 @@ public class VistaLogin extends javax.swing.JFrame {
     public Image getIconImage() {
         Image retValue = Toolkit.getDefaultToolkit()
                 .getImage(ClassLoader.
-                        getSystemResource("imagenes/loguito.png"));
+                        getSystemResource("imagenes/LogoAcademiaB.png"));
         return retValue;
     }
 
@@ -135,25 +135,25 @@ public class VistaLogin extends javax.swing.JFrame {
         jLabel1.setText("Inicio de sesión");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(141, 0, 148));
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/punto2.png"))); // NOI18N
         jButton1.setBorder(null);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 560, -1, -1));
 
-        jButton2.setBackground(new java.awt.Color(141, 0, 148));
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/punto2.png"))); // NOI18N
         jButton2.setBorder(null);
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 560, -1, -1));
 
-        jButton3.setBackground(new java.awt.Color(141, 0, 148));
+        jButton3.setBackground(new java.awt.Color(0, 153, 153));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/punto2.png"))); // NOI18N
         jButton3.setBorder(null);
-        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 560, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondo.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondoceleste.png"))); // NOI18N
         jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 650));
 
@@ -162,41 +162,41 @@ public class VistaLogin extends javax.swing.JFrame {
 
         txtUsuario.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
         txtUsuario.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel2.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 230, 30));
+        jPanel2.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 230, 30));
 
-        jLabel18.setFont(new java.awt.Font("Roboto Thin", 0, 30)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel18.setText("Contraseña:");
-        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, -1, -1));
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 290, -1, -1));
 
         txtContrasenia.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         txtContrasenia.setText("jPasswordField1");
         txtContrasenia.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 290, 230, 30));
+        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 230, 30));
 
         lblMostrar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblMostrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-open.png"))); // NOI18N
-        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 290, -1, -1));
+        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 360, -1, -1));
 
-        btnIniciarSesion.setBackground(new java.awt.Color(125, 0, 148));
+        btnIniciarSesion.setBackground(new java.awt.Color(0, 153, 153));
         btnIniciarSesion.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
         btnIniciarSesion.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciarSesion.setText("Iniciar sesión");
-        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 460, -1, -1));
+        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 450, -1, -1));
 
         lblOcultar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblOcultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-close.png"))); // NOI18N
-        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 290, -1, -1));
+        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 360, -1, -1));
 
-        jLabel14.setFont(new java.awt.Font("Roboto Thin", 0, 30)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel14.setText("Usuario:");
-        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, -1, -1));
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 170, -1, -1));
 
-        jLabel13.setFont(new java.awt.Font("Roboto Black", 0, 30)); // NOI18N
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/musica.gif"))); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dance-3169_128.gif"))); // NOI18N
         jLabel13.setText("    Datos del Usuario");
-        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, -1));
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 480, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 40, 580, 550));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 40, 610, 550));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
