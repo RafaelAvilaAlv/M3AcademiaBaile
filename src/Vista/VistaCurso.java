@@ -366,33 +366,33 @@ public class VistaCurso extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(tblCurso);
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel1.setText("Buscar:");
 
-        btnCrear.setBackground(new java.awt.Color(204, 204, 255));
+        btnCrear.setBackground(new java.awt.Color(0, 153, 153));
         btnCrear.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCrear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/AñadirDetalles.png"))); // NOI18N
         btnCrear.setText("Crear");
         btnCrear.setBorder(null);
         btnCrear.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnModificar.setBackground(new java.awt.Color(204, 204, 255));
+        btnModificar.setBackground(new java.awt.Color(0, 153, 153));
         btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificar.setText("Modificar");
         btnModificar.setBorder(null);
         btnModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnActualizar.setBackground(new java.awt.Color(204, 204, 255));
+        btnActualizar.setBackground(new java.awt.Color(0, 153, 153));
         btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("Actualizar");
         btnActualizar.setBorder(null);
         btnActualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        btnEliminar.setBackground(new java.awt.Color(204, 204, 255));
+        btnEliminar.setBackground(new java.awt.Color(0, 153, 153));
         btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/compartimiento.png"))); // NOI18N
         btnEliminar.setText("Eliminar");
@@ -403,7 +403,9 @@ public class VistaCurso extends javax.swing.JInternalFrame {
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/curso.png"))); // NOI18N
         jtxtTituloMenu.setText("Curso");
 
-        btnImprimir.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+
+        btnImprimir.setBackground(new java.awt.Color(0, 153, 153));
         btnImprimir.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnImprimir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imprimir.png"))); // NOI18N
         btnImprimir.setText("Imprimir");
@@ -443,10 +445,10 @@ public class VistaCurso extends javax.swing.JInternalFrame {
                         .addGap(36, 36, 36)
                         .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(48, 48, 48)
-                        .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(60, 60, 60)
+                        .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(38, 38, 38)
                         .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 126, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(431, 431, 431)
                         .addComponent(jtxtTituloMenu)

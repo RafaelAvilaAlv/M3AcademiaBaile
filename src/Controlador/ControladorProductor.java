@@ -89,7 +89,7 @@ public class ControladorProductor {
             vista.getjDlgProductor().setVisible(true);
             vista.getjDlgProductor().setSize(817, 667);
             vista.getjDlgProductor().setLocationRelativeTo(null);
-            vista.getjDlgProductor().setName("Modificar productor");
+            vista.getjDlgProductor().setName("Modificar Director Artistico");
             vista.getjDlgProductor().setTitle("Modificar productor");
             bloquearCampos();
 
@@ -136,15 +136,15 @@ public class ControladorProductor {
         vista.getjDlgProductor().setVisible(true);
         vista.getjDlgProductor().setSize(817, 667);
         vista.getjDlgProductor().setLocationRelativeTo(null);
-        vista.getjDlgProductor().setName("Crear nuevo productor");
-        vista.getjDlgProductor().setTitle("Crear nuevo productor");
+        vista.getjDlgProductor().setName("Crear nuevo Director Artistico");
+        vista.getjDlgProductor().setTitle("Crear nuevo Director Artistico");
         bloquearCampos();
         limpiarCampos();
     }
 
     public void crearEditarProductor() {
 
-        if ("Crear nuevo productor".equals(vista.getjDlgProductor().getName())) {
+        if ("Crear nuevo Director Artistico".equals(vista.getjDlgProductor().getName())) {
 
             if (validarDatosCrear()) {
 
@@ -170,7 +170,7 @@ public class ControladorProductor {
                 });
 
                 if (asignar) {
-                    JOptionPane.showMessageDialog(null, "Esta persona ya ha sido asignada como productor");
+                    JOptionPane.showMessageDialog(null, "Esta persona ya ha sido asignada como Director Artistico");
                 } else {
 
                     //Setear Datos de empleado
@@ -188,7 +188,7 @@ public class ControladorProductor {
                         productor.setPro_expe(Integer.parseInt(vista.getSpinnerExperiencia().getValue().toString()));
 
                         if (productor.crearProductor() == null) {
-                            JOptionPane.showMessageDialog(null, "Productor asignado correctamente");
+                            JOptionPane.showMessageDialog(null, "Director Artistico asignado correctamente");
                             vista.getjDlgProductor().setVisible(false);
 
                         } else {
@@ -250,10 +250,10 @@ public class ControladorProductor {
                 codigoProductorEliminar = Integer.parseInt(vista.getTblProductor().getValueAt(fila, 4).toString());
 
                 if (productor.eliminarProductor(codigoProductorEliminar) == null) {
-                    JOptionPane.showMessageDialog(null, "El productor fue eliminado exitosamente");
+                    JOptionPane.showMessageDialog(null, "El Director Artistico fue eliminado exitosamente");
                     cargarTablaDeProductor();//Actualizo la tabla con los datos
                 } else {
-                    JOptionPane.showMessageDialog(null, "Error: El productor no se pudo eliminar");
+                    JOptionPane.showMessageDialog(null, "Error: El Director Artistico no se pudo eliminar");
                 }
             }
         }
