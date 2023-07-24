@@ -129,8 +129,8 @@ public class VistaLogin extends javax.swing.JFrame {
         lblImagen1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jPanel1.add(lblImagen1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 540, 380));
 
-        jLabel1.setFont(new java.awt.Font("Roboto Black", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario_1.png"))); // NOI18N
         jLabel1.setText("Inicio de sesión");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
