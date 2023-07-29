@@ -92,7 +92,7 @@ public class ControladorPersona {
 
         ConexionPG cpg = new ConexionPG();//Instanciar la conexion con esto abrimos la conexion a la BD
         try {
-            JasperReport jr = (JasperReport) JRLoader.loadObject(getClass().getResource("/reportes/PersonaReporte1.jasper"));
+            JasperReport jr = (JasperReport) JRLoader.loadObject(getClass().getResource("/reportes/PersonaReporte.jasper"));
 
             //Hacer una vista previa
             //JasperPrint jp = JasperFillManager.fillReport(jr, null, cpg.getCon());//JasperFillManager.fillReport: Carga los datos de la BD.//JasperPrint: Hace la impresion del reporte. Puede ir 'null' si en el jasper no existen parametros caso contrario se envian los parametros necesarios

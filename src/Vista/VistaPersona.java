@@ -484,18 +484,23 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel12.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(126, 56, 64));
         jLabel12.setText("Direccion:");
 
         jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(126, 56, 64));
         jLabel8.setText("Fecha de nacimiento:");
 
         jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Cédula:");
 
         jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(126, 56, 64));
         jLabel9.setText("Genero:");
 
         jLabel4.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(126, 56, 64));
         jLabel4.setText("Primer nombre:");
 
         genero.add(masculino);
@@ -507,6 +512,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         femenino.setText("F");
 
         jLabel5.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(126, 56, 64));
         jLabel5.setText("Segundo nombre:");
 
         genero.add(noBinario);
@@ -514,23 +520,29 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         noBinario.setText("No binario");
 
         jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(126, 56, 64));
         jLabel10.setText("Telefono:");
 
         jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Primer apellido:");
 
         jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(126, 56, 64));
         jLabel11.setText("Email:");
 
         jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(126, 56, 64));
         jLabel7.setText("Segundo apellido:");
 
         jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 28)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel3.setText("Registrar persona");
 
         btnModificarPersona.setBackground(new java.awt.Color(255, 255, 255));
         btnModificarPersona.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnModificarPersona.setForeground(new java.awt.Color(235, 117, 117));
         btnModificarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificarPersona.setText("Modificar");
         btnModificarPersona.setBorder(null);
@@ -542,9 +554,10 @@ public class VistaPersona extends javax.swing.JInternalFrame {
 
         rol.add(checkProductor);
         checkProductor.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        checkProductor.setText("Productor");
+        checkProductor.setText("Director musical");
 
         lblRol.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        lblRol.setForeground(new java.awt.Color(126, 56, 64));
         lblRol.setText("Asignar rol:");
 
         rol.add(checkEstudiante);
@@ -557,6 +570,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
 
         btnCancelarPersona.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelarPersona.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnCancelarPersona.setForeground(new java.awt.Color(235, 117, 117));
         btnCancelarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelarPersona.setText("Cancelar");
         btnCancelarPersona.setBorder(null);
@@ -609,16 +623,15 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                                 .addComponent(checkDocente, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(checkEstudiante, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblRol)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel8)
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtEmail)
-                                    .addComponent(txtDireccion)
-                                    .addComponent(fechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(checkProductor, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(lblRol)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addComponent(jLabel8)
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(txtEmail)
+                                .addComponent(txtDireccion)
+                                .addComponent(fechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(checkProductor, javax.swing.GroupLayout.Alignment.TRAILING))
                     .addComponent(btnCancelarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(74, 74, 74))
         );
@@ -708,28 +721,34 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel16.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(126, 56, 64));
         jLabel16.setText("Sueldo");
 
         jLabel15.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(126, 56, 64));
         jLabel15.setText("Especialidad:");
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(235, 117, 117));
         jLabel14.setText("Registrar docente");
 
         btnGuardarDocente.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardarDocente.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnGuardarDocente.setForeground(new java.awt.Color(235, 117, 117));
         btnGuardarDocente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardarDocente.setText("Guardar");
         btnGuardarDocente.setBorder(null);
         btnGuardarDocente.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel17.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(126, 56, 64));
         jLabel17.setText("Fecha de contratacion:");
 
         spinnerSueldoDocente.setModel(new javax.swing.SpinnerNumberModel(0.0d, 0.0d, 10000.0d, 1.0d));
 
         btnCancelarDocente.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelarDocente.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnCancelarDocente.setForeground(new java.awt.Color(235, 117, 117));
         btnCancelarDocente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelarDocente.setText("Cancelar");
         btnCancelarDocente.setBorder(null);
@@ -803,29 +822,36 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(235, 117, 117));
         jLabel21.setText("Registrar productor");
 
         jLabel18.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(126, 56, 64));
         jLabel18.setText("Experiencia:");
 
         jLabel19.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(126, 56, 64));
         jLabel19.setText("Sueldo:");
 
         jLabel20.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(126, 56, 64));
         jLabel20.setText("Fecha de contratacion:");
 
         btnGuardarProductor.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardarProductor.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnGuardarProductor.setForeground(new java.awt.Color(235, 117, 117));
         btnGuardarProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardarProductor.setText("Guardar");
         btnGuardarProductor.setBorder(null);
         btnGuardarProductor.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel26.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(235, 117, 117));
         jLabel26.setText("$");
 
         btnCancelarProductor.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelarProductor.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnCancelarProductor.setForeground(new java.awt.Color(235, 117, 117));
         btnCancelarProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelarProductor.setText("Cancelar");
         btnCancelarProductor.setBorder(null);
@@ -905,24 +931,30 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(235, 117, 117));
         jLabel25.setText("Registrar administrador");
 
         jLabel13.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(126, 56, 64));
         jLabel13.setText("Usuario:");
 
         jLabel22.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(126, 56, 64));
         jLabel22.setText("Contraseña:");
 
         jLabel24.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(126, 56, 64));
         jLabel24.setText("Fecha de contratacion:");
 
         spinnerSueldoAdministrador.setModel(new javax.swing.SpinnerNumberModel(0.0d, 0.0d, 10000.0d, 1.0d));
 
         jLabel23.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(126, 56, 64));
         jLabel23.setText("Sueldo");
 
         btnGuardarAdministrador.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardarAdministrador.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnGuardarAdministrador.setForeground(new java.awt.Color(235, 117, 117));
         btnGuardarAdministrador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardarAdministrador.setText("Guardar");
         btnGuardarAdministrador.setBorder(null);
@@ -930,12 +962,14 @@ public class VistaPersona extends javax.swing.JInternalFrame {
 
         btnCancelarAdministrador.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelarAdministrador.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        btnCancelarAdministrador.setForeground(new java.awt.Color(235, 117, 117));
         btnCancelarAdministrador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelarAdministrador.setText("Cancelar");
         btnCancelarAdministrador.setBorder(null);
         btnCancelarAdministrador.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel27.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(235, 117, 117));
         jLabel27.setText("$");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -1025,37 +1059,43 @@ public class VistaPersona extends javax.swing.JInternalFrame {
             e1.printStackTrace();
         }
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(126, 56, 64));
         jLabel1.setText("Buscar:");
 
-        btnModificar.setBackground(new java.awt.Color(0, 153, 153));
-        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnModificar.setBackground(new java.awt.Color(255, 255, 255));
+        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnModificar.setForeground(new java.awt.Color(126, 56, 64));
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificar.setText("Modificar");
         btnModificar.setBorder(null);
 
-        btnCrear.setBackground(new java.awt.Color(0, 153, 153));
-        btnCrear.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnCrear.setBackground(new java.awt.Color(255, 255, 255));
+        btnCrear.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnCrear.setForeground(new java.awt.Color(126, 56, 64));
         btnCrear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/registroo.png"))); // NOI18N
         btnCrear.setText("Crear");
         btnCrear.setBorder(null);
 
-        btnActualizar1.setBackground(new java.awt.Color(0, 153, 153));
-        btnActualizar1.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnActualizar1.setBackground(new java.awt.Color(255, 255, 255));
+        btnActualizar1.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnActualizar1.setForeground(new java.awt.Color(126, 56, 64));
         btnActualizar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar1.setText("Actualizar");
         btnActualizar1.setBorder(null);
 
-        btnImprimir.setBackground(new java.awt.Color(0, 153, 153));
-        btnImprimir.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnImprimir.setBackground(new java.awt.Color(255, 255, 255));
+        btnImprimir.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnImprimir.setForeground(new java.awt.Color(126, 56, 64));
         btnImprimir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imprimir.png"))); // NOI18N
         btnImprimir.setText("Imprimir");
         btnImprimir.setBorder(null);
         btnImprimir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jtxtTituloMenu.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
+        jtxtTituloMenu.setForeground(new java.awt.Color(235, 117, 117));
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jtxtTituloMenu.setText("Personal");
 
@@ -1068,19 +1108,19 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
                 .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
-                .addComponent(btnCrear, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(82, 82, 82)
-                .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(54, 54, 54)
-                .addComponent(btnActualizar1, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
+                .addComponent(btnCrear)
+                .addGap(68, 68, 68)
+                .addComponent(btnModificar)
+                .addGap(46, 46, 46)
+                .addComponent(btnActualizar1)
+                .addGap(19, 19, 19)
+                .addComponent(btnImprimir)
+                .addGap(21, 21, 21))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(494, 494, 494)
                 .addComponent(jtxtTituloMenu)
-                .addGap(494, 494, 494))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -139,7 +139,7 @@ public class ControladorAsiAsignatura {
                 });
 
                 if (verificarAsignacion) {
-                    JOptionPane.showMessageDialog(vista, "El docente ya imparte esta asignatura");
+                    JOptionPane.showMessageDialog(vista, "El profesor ya imparte esta asignatura");
                 } else {
 
                     modelo.setAsig_coddoc(Integer.parseInt(vista.getTxtCodigoDocente().getText()));
@@ -533,12 +533,12 @@ public class ControladorAsiAsignatura {
         boolean validar = true;
 
         if (vista.getTxtCedula().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Seleccione un docente");
+            JOptionPane.showMessageDialog(null, "Seleccione un profesor");
             validar = false;
         }
 
         if (vista.getTxtNombreAsignatura().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Seleccione una asignatura");
+            JOptionPane.showMessageDialog(null, "Seleccione una asignatura/teoria");
             validar = false;
         }
 

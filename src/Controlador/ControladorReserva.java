@@ -138,7 +138,7 @@ public class ControladorReserva {
                 java.sql.Date fechaentraSQL = new java.sql.Date(fechaentra.getTime());
                 
                 if (modelo.verificarFechaDisponible(fechaentraSQL, Integer.parseInt(vista.getTxtCodigoSet().getText())) != 0) {
-                    JOptionPane.showMessageDialog(vista, "El set ya ha sido reservado para esta fecha");
+                    JOptionPane.showMessageDialog(vista, "Un evento ya ha sido reservado para esta fecha");
                 } else {
                     modelo.setRes_codestudiante(Integer.parseInt(vista.getTxtCodigoEstudiante().getText()));
                     modelo.setRes_codset(Integer.parseInt(vista.getTxtCodigoSet().getText()));
@@ -429,7 +429,7 @@ public class ControladorReserva {
         vista.getjDlgBuscarSet().setVisible(true);
         vista.getjDlgBuscarSet().setSize(636, 398);
         vista.getjDlgBuscarSet().setLocationRelativeTo(vista.getBtnBuscarSet());
-        vista.getjDlgBuscarSet().setTitle("Seleccione un set de grabación");
+        vista.getjDlgBuscarSet().setTitle("Seleccione un evento");
         
         cargarRegistroDeSet();
         buscarSet();
@@ -523,12 +523,12 @@ public class ControladorReserva {
         }
         
         if (vista.getTxtNombreSet().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Seleccione un set de grabación");
+            JOptionPane.showMessageDialog(null, "Seleccione un evento");
             validar = false;
         }
         
         if (vista.getFechaDeEntrada().getDate() == null) {
-            JOptionPane.showMessageDialog(null, "Ingrese la fecha para la cual desea apartar el set de grabación");
+            JOptionPane.showMessageDialog(null, "Ingrese la fecha para la cual desea apartar el evento");
             validar = false;
         } else {
             
@@ -548,13 +548,13 @@ public class ControladorReserva {
             }
             
             if (fechaEntra.before(fechaReser) || fechaEntra.equals(fechaReser)) {
-                JOptionPane.showMessageDialog(null, "La fecha para la que se desea reservar el set de grabación,\ndebe ser mayor a la fecha en que se registra la reservación");
+                JOptionPane.showMessageDialog(null, "La fecha para la que se desea reservar el evento,\ndebe ser mayor a la fecha en que se registra la reservación");
                 return false;
             }
         }
         
         if (vista.getFechaDeReserva().getDate() == null) {
-            JOptionPane.showMessageDialog(null, "Ingrese la fecha de apartado del set de grabación");
+            JOptionPane.showMessageDialog(null, "Ingrese la fecha de apartado del evento");
             validar = false;
         } else {
             
@@ -574,7 +574,7 @@ public class ControladorReserva {
             }
             
             if (fechaReser.after(fechaEntra)) {
-                JOptionPane.showMessageDialog(null, "La fecha de reservación no debe superar a la fecha\npara la cual se desea apartar el set de grabación");
+                JOptionPane.showMessageDialog(null, "La fecha de reservación no debe superar a la fecha\npara la cual se desea apartar el evento");
                 return false;
             }
             

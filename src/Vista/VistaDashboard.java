@@ -68,7 +68,7 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(255, 255, 255));
         setBorder(null);
         setResizable(true);
         setAutoscrolls(true);
@@ -79,131 +79,95 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
             e1.printStackTrace();
         }
 
-        panelFondo.setBackground(new java.awt.Color(204, 204, 204));
+        panelFondo.setBackground(new java.awt.Color(255, 255, 255));
+        panelFondo.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        panelestado.setBackground(new java.awt.Color(204, 204, 204));
-        panelestado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        panelestado.setBackground(new java.awt.Color(255, 255, 255));
+        panelestado.setBorder(javax.swing.BorderFactory.createCompoundBorder());
+        panelestado.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        reservas.setBackground(new java.awt.Color(102, 255, 204));
+        reservas.setBackground(new java.awt.Color(191, 161, 161));
         reservas.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        reservas.setForeground(new java.awt.Color(255, 255, 255));
         reservas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         reservas.setText("Reservas");
         reservas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         reservas.setFocusable(false);
         reservas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         reservas.setOpaque(true);
+        panelestado.add(reservas, new org.netbeans.lib.awtextra.AbsoluteConstraints(684, 20, 170, 34));
 
-        estadiantes.setBackground(new java.awt.Color(197, 168, 255));
+        estadiantes.setBackground(new java.awt.Color(191, 161, 161));
         estadiantes.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        estadiantes.setForeground(new java.awt.Color(255, 255, 255));
         estadiantes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         estadiantes.setText("Estudiantes");
         estadiantes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         estadiantes.setFocusable(false);
         estadiantes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         estadiantes.setOpaque(true);
+        panelestado.add(estadiantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 170, 30));
 
         lblEstudiantes.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
+        lblEstudiantes.setForeground(new java.awt.Color(235, 117, 117));
         lblEstudiantes.setText("0");
+        panelestado.add(lblEstudiantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 72, -1, 40));
 
-        docentes.setBackground(new java.awt.Color(153, 255, 153));
+        docentes.setBackground(new java.awt.Color(191, 161, 161));
         docentes.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        docentes.setForeground(new java.awt.Color(255, 255, 255));
         docentes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         docentes.setText("Profesores");
         docentes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         docentes.setFocusable(false);
         docentes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         docentes.setOpaque(true);
+        panelestado.add(docentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 20, 170, 30));
 
         lblDocentes.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
+        lblDocentes.setForeground(new java.awt.Color(235, 117, 117));
         lblDocentes.setText("0");
+        panelestado.add(lblDocentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(295, 72, -1, 40));
 
-        productores1.setBackground(new java.awt.Color(153, 204, 255));
+        productores1.setBackground(new java.awt.Color(191, 161, 161));
         productores1.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        productores1.setForeground(new java.awt.Color(255, 255, 255));
         productores1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         productores1.setText("Directores Artisticos");
         productores1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         productores1.setFocusable(false);
         productores1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         productores1.setOpaque(true);
+        panelestado.add(productores1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 190, 34));
 
         lblProductores.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
+        lblProductores.setForeground(new java.awt.Color(235, 117, 117));
         lblProductores.setText("0");
+        panelestado.add(lblProductores, new org.netbeans.lib.awtextra.AbsoluteConstraints(523, 72, -1, 40));
 
         lblReservas.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
+        lblReservas.setForeground(new java.awt.Color(235, 117, 117));
         lblReservas.setText("0");
+        panelestado.add(lblReservas, new org.netbeans.lib.awtextra.AbsoluteConstraints(755, 72, -1, 40));
 
         lblInstrumentos.setFont(new java.awt.Font("Roboto", 1, 50)); // NOI18N
+        lblInstrumentos.setForeground(new java.awt.Color(235, 117, 117));
         lblInstrumentos.setText("0");
+        panelestado.add(lblInstrumentos, new org.netbeans.lib.awtextra.AbsoluteConstraints(971, 72, -1, 40));
 
-        reservas1.setBackground(new java.awt.Color(255, 153, 153));
+        reservas1.setBackground(new java.awt.Color(191, 161, 161));
         reservas1.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        reservas1.setForeground(new java.awt.Color(255, 255, 255));
         reservas1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         reservas1.setText("Indumentaria ");
         reservas1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         reservas1.setFocusable(false);
         reservas1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         reservas1.setOpaque(true);
+        panelestado.add(reservas1, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 20, 140, 34));
 
-        javax.swing.GroupLayout panelestadoLayout = new javax.swing.GroupLayout(panelestado);
-        panelestado.setLayout(panelestadoLayout);
-        panelestadoLayout.setHorizontalGroup(
-            panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelestadoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(estadiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45)
-                .addComponent(docentes, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45)
-                .addComponent(productores1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(reservas, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(reservas1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(panelestadoLayout.createSequentialGroup()
-                .addGap(73, 73, 73)
-                .addComponent(lblEstudiantes)
-                .addGap(193, 193, 193)
-                .addComponent(lblDocentes)
-                .addGap(199, 199, 199)
-                .addComponent(lblProductores)
-                .addGap(186, 186, 186)
-                .addComponent(lblReservas)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(lblInstrumentos)
-                .addGap(80, 80, 80))
-        );
-        panelestadoLayout.setVerticalGroup(
-            panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelestadoLayout.createSequentialGroup()
-                .addContainerGap(20, Short.MAX_VALUE)
-                .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(estadiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(docentes, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(reservas, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(productores1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(reservas1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblDocentes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(panelestadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(lblReservas, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(lblProductores, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(lblEstudiantes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblInstrumentos, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(24, Short.MAX_VALUE))
-        );
+        panelFondo.add(panelestado, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 500, 1052, 123));
 
-        jtxtTituloMenu.setFont(new java.awt.Font("Roboto Black", 1, 24)); // NOI18N
+        jtxtTituloMenu.setFont(new java.awt.Font("Roboto Black", 1, 36)); // NOI18N
+        jtxtTituloMenu.setForeground(new java.awt.Color(235, 117, 117));
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dash.png"))); // NOI18N
         jtxtTituloMenu.setText("Tablero");
+        panelFondo.add(jtxtTituloMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 1037, 65));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 48)); // NOI18N
@@ -212,41 +176,13 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/danzas.jpg"))); // NOI18N
         jLabel3.setToolTipText("");
         jLabel3.setAutoscrolls(true);
+        panelFondo.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 1100, 294));
 
-        jLabel4.setFont(new java.awt.Font("Roboto", 1, 24)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Roboto", 1, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Estado");
-
-        javax.swing.GroupLayout panelFondoLayout = new javax.swing.GroupLayout(panelFondo);
-        panelFondo.setLayout(panelFondoLayout);
-        panelFondoLayout.setHorizontalGroup(
-            panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(panelFondoLayout.createSequentialGroup()
-                .addGroup(panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelFondoLayout.createSequentialGroup()
-                        .addGap(36, 36, 36)
-                        .addComponent(jtxtTituloMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(panelestado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap())
-            .addGroup(panelFondoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1076, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        panelFondoLayout.setVerticalGroup(
-            panelFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelFondoLayout.createSequentialGroup()
-                .addComponent(jtxtTituloMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(panelestado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(88, 88, 88))
-        );
+        panelFondo.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, 1051, 54));
 
         getContentPane().add(panelFondo, java.awt.BorderLayout.CENTER);
 

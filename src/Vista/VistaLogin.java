@@ -115,6 +115,8 @@ public class VistaLogin extends javax.swing.JFrame {
         lblOcultar = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagenlogin.png"))); // NOI18N
         jLabel4.setToolTipText("");
@@ -130,7 +132,7 @@ public class VistaLogin extends javax.swing.JFrame {
         jPanel1.add(lblImagen1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 540, 380));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 48)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario_1.png"))); // NOI18N
         jLabel1.setText("Inicio de sesión");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
@@ -161,40 +163,47 @@ public class VistaLogin extends javax.swing.JFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtUsuario.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
-        txtUsuario.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        txtUsuario.setBorder(null);
         jPanel2.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 230, 30));
 
         jLabel18.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel18.setText("Contraseña:");
-        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 290, -1, -1));
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 300, -1, -1));
 
         txtContrasenia.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         txtContrasenia.setText("jPasswordField1");
-        txtContrasenia.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 230, 30));
+        txtContrasenia.setBorder(null);
+        txtContrasenia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtContraseniaActionPerformed(evt);
+            }
+        });
+        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 360, 230, 30));
 
         lblMostrar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblMostrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-open.png"))); // NOI18N
-        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 360, -1, -1));
+        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, -1, -1));
 
-        btnIniciarSesion.setBackground(new java.awt.Color(0, 153, 153));
+        btnIniciarSesion.setBackground(new java.awt.Color(235, 117, 117));
         btnIniciarSesion.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
         btnIniciarSesion.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciarSesion.setText("Iniciar sesión");
-        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 450, -1, -1));
+        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, -1, -1));
 
         lblOcultar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblOcultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-close.png"))); // NOI18N
-        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 360, -1, -1));
+        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel14.setText("Usuario:");
-        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 170, -1, -1));
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dance-3169_128.gif"))); // NOI18N
         jLabel13.setText("    Datos del Usuario");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 480, -1));
+        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 260, 300, -1));
+        jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 390, 300, 10));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 40, 610, 550));
 
@@ -214,6 +223,10 @@ public class VistaLogin extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txtContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtContraseniaActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIniciarSesion;
@@ -228,6 +241,8 @@ public class VistaLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
     public javax.swing.JLabel lblImagen1;
     private javax.swing.JLabel lblMostrar;
     private javax.swing.JLabel lblOcultar;
