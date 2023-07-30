@@ -300,13 +300,13 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel19.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(235, 117, 117));
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel19.setText("Cargar estudiantes");
-        jPanel3.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+        jPanel3.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
 
-        jLabel17.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(126, 56, 64));
         jLabel17.setText("Buscar:");
         jPanel3.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 76, -1, -1));
@@ -329,12 +329,12 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel3.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 134, 677, 260));
 
         btnCargarEst.setBackground(new java.awt.Color(255, 255, 255));
-        btnCargarEst.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        btnCargarEst.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCargarEst.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarEst.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarEst.setText("Cargar");
         btnCargarEst.setBorder(null);
-        jPanel3.add(btnCargarEst, new org.netbeans.lib.awtextra.AbsoluteConstraints(603, 65, 86, 39));
+        jPanel3.add(btnCargarEst, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, 86, 39));
 
         javax.swing.GroupLayout jDlgBuscarEstudianteLayout = new javax.swing.GroupLayout(jDlgBuscarEstudiante.getContentPane());
         jDlgBuscarEstudiante.getContentPane().setLayout(jDlgBuscarEstudianteLayout);
@@ -352,14 +352,14 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel21.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(235, 117, 117));
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/diploma (1).png"))); // NOI18N
         jLabel21.setText("Cargar Curso");
-        jPanel4.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+        jPanel4.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, -1, -1));
         jPanel4.add(txtBuscarCur, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 71, 164, -1));
 
-        jLabel22.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(126, 56, 64));
         jLabel22.setText("Buscar:");
         jPanel4.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 74, -1, -1));
@@ -381,7 +381,7 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel4.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 141, 552, 260));
 
         btnCargarCur.setBackground(new java.awt.Color(255, 255, 255));
-        btnCargarCur.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        btnCargarCur.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCargarCur.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarCur.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarCur.setText("Cargar");
@@ -418,8 +418,8 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel2.add(txtCedulaAdministrador, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 360, 162, -1));
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
-        btnCancelar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnCancelar.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
@@ -428,37 +428,37 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel2.add(txtNombreYApellidoEstudiante, new org.netbeans.lib.awtextra.AbsoluteConstraints(168, 179, 162, -1));
         jPanel2.add(txtCodigoCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 390, 42, -1));
 
-        jLabel29.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(126, 56, 64));
         jLabel29.setText("Información del curso");
         jPanel2.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 330, -1, -1));
         jPanel2.add(txtCedulaEstudiante, new org.netbeans.lib.awtextra.AbsoluteConstraints(168, 122, 162, -1));
 
-        jLabel23.setFont(new java.awt.Font("Roboto Black", 0, 28)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(235, 117, 117));
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/matricula.png"))); // NOI18N
         jLabel23.setText("Registrar matrícula");
-        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 23, -1, -1));
+        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
 
-        jLabel31.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel31.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel31.setForeground(new java.awt.Color(126, 56, 64));
         jLabel31.setText("Fecha de matrícula:");
         jPanel2.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 120, -1, -1));
 
-        jLabel.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel.setForeground(new java.awt.Color(126, 56, 64));
         jLabel.setText("Correo: ");
         jPanel2.add(jLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, -1));
         jPanel2.add(txtCodigoAdministrador, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 360, 42, -1));
 
-        jLabel27.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(126, 56, 64));
         jLabel27.setText("Información del estudiante");
         jPanel2.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 86, -1, -1));
 
         btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
-        btnGuardar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(235, 117, 117));
+        btnGuardar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnGuardar.setForeground(new java.awt.Color(126, 56, 64));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
@@ -466,25 +466,25 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel2.add(btnGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 510, 95, -1));
         jPanel2.add(txtCodigoEstudiantematri, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 42, -1));
 
-        jLabel24.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(126, 56, 64));
         jLabel24.setText("Nombre y apellido:");
         jPanel2.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, -1, -1));
 
-        jLabel25.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(126, 56, 64));
         jLabel25.setText("Nombre y apellido:");
         jPanel2.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 182, -1, -1));
 
-        jLabel28.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel28.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel28.setForeground(new java.awt.Color(126, 56, 64));
         jLabel28.setText("Información del administrador");
         jPanel2.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, -1, -1));
         jPanel2.add(txtNombreCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 162, -1));
 
         btnBuscarEstudiante.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarEstudiante.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
-        btnBuscarEstudiante.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarEstudiante.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnBuscarEstudiante.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarEstudiante.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarEstudiante.setText("Buscar");
         btnBuscarEstudiante.setBorder(null);
@@ -492,18 +492,18 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         btnBuscarEstudiante.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jPanel2.add(btnBuscarEstudiante, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 121, -1, -1));
 
-        jLabel30.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel30.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel30.setForeground(new java.awt.Color(126, 56, 64));
         jLabel30.setText("Cédula:");
         jPanel2.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 125, -1, -1));
 
-        jLabel26.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(126, 56, 64));
         jLabel26.setText("Cédula:");
         jPanel2.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, -1, -1));
         jPanel2.add(txtCorreoEstudiante, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 162, -1));
 
-        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Nombre:");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 360, -1, -1));
@@ -541,12 +541,12 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(126, 56, 64));
         jLabel1.setText("Buscar:");
 
         btnMatricular.setBackground(new java.awt.Color(255, 255, 255));
-        btnMatricular.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnMatricular.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnMatricular.setForeground(new java.awt.Color(126, 56, 64));
         btnMatricular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/AñadirDetalles.png"))); // NOI18N
         btnMatricular.setText("Matricular");
@@ -559,7 +559,7 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         });
 
         btnActualizar.setBackground(new java.awt.Color(255, 255, 255));
-        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnActualizar.setForeground(new java.awt.Color(126, 56, 64));
         btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("Actualizar");
@@ -567,14 +567,14 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         btnActualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnEliminar.setBackground(new java.awt.Color(255, 255, 255));
-        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnEliminar.setForeground(new java.awt.Color(126, 56, 64));
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/compartimiento.png"))); // NOI18N
         btnEliminar.setText("Anular");
         btnEliminar.setBorder(null);
         btnEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jtxtTituloMenu.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
+        jtxtTituloMenu.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jtxtTituloMenu.setForeground(new java.awt.Color(235, 117, 117));
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/matricula_1.png"))); // NOI18N
         jtxtTituloMenu.setText("Matrícula");
@@ -584,31 +584,28 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jtxtTituloMenu)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(18, 18, 18)
-                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnMatricular)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnActualizar)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                .addGap(88, 88, 88)
+                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnMatricular)
+                .addGap(18, 18, 18)
+                .addComponent(btnActualizar)
+                .addGap(18, 18, 18)
+                .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(192, 192, 192))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(458, 458, 458)
+                .addComponent(jtxtTituloMenu)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(29, 29, 29)
-                .addComponent(jtxtTituloMenu)
-                .addGap(29, 89, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(jtxtTituloMenu)
+                .addGap(33, 33, 33)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnEliminar)
                     .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -616,7 +613,7 @@ public class VistaMatricula extends javax.swing.JInternalFrame {
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel1)
                         .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                .addContainerGap(39, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

@@ -331,91 +331,94 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel2.add(txtSegundoApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 366, 216, -1));
 
-        jLabel12.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(126, 56, 64));
         jLabel12.setText("Direccion:");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 220, -1, -1));
 
         btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
-        btnGuardar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(235, 117, 117));
+        btnGuardar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnGuardar.setForeground(new java.awt.Color(126, 56, 64));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
         btnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.add(btnGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 601, 96, -1));
 
-        jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(126, 56, 64));
         jLabel8.setText("Fecha de nacimiento:");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 90, -1, -1));
         jPanel2.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 220, 180, -1));
 
-        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Cédula:");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 92, -1, -1));
         jPanel2.add(fechaNacimiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 90, 180, -1));
         jPanel2.add(txtCedula, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 89, 218, -1));
 
-        jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(126, 56, 64));
         jLabel9.setText("Genero:");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 460, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(126, 56, 64));
         jLabel4.setText("Primer nombre:");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 151, -1, -1));
 
         genero.add(masculino);
-        masculino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        masculino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        masculino.setForeground(new java.awt.Color(126, 56, 64));
         masculino.setText("M");
         jPanel2.add(masculino, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 452, -1, -1));
         jPanel2.add(txtPrimerNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 148, 216, -1));
 
         genero.add(femenino);
-        femenino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        femenino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        femenino.setForeground(new java.awt.Color(126, 56, 64));
         femenino.setText("F");
         jPanel2.add(femenino, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 452, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(126, 56, 64));
         jLabel5.setText("Segundo nombre:");
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 223, -1, -1));
 
         genero.add(noBinario);
-        noBinario.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        noBinario.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        noBinario.setForeground(new java.awt.Color(126, 56, 64));
         noBinario.setText("No binario");
         jPanel2.add(noBinario, new org.netbeans.lib.awtextra.AbsoluteConstraints(256, 452, -1, -1));
         jPanel2.add(txtSegundoNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 220, 216, -1));
 
-        jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(126, 56, 64));
         jLabel10.setText("Telefono:");
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 523, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Primer apellido:");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 293, -1, -1));
         jPanel2.add(txtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 520, 216, -1));
         jPanel2.add(txtPrimerApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 290, 216, -1));
 
-        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(126, 56, 64));
         jLabel11.setText("Email:");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(126, 56, 64));
         jLabel7.setText("Segundo apellido:");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 369, -1, -1));
         jPanel2.add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 150, 180, -1));
 
         btnBuscarPersona.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarPersona.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
-        btnBuscarPersona.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarPersona.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnBuscarPersona.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarPersona.setText("Buscar");
         btnBuscarPersona.setBorder(null);
@@ -423,21 +426,21 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         btnBuscarPersona.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jPanel2.add(btnBuscarPersona, new org.netbeans.lib.awtextra.AbsoluteConstraints(363, 88, -1, -1));
 
-        jLabel13.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(126, 56, 64));
         jLabel13.setText("Especialidad:");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 300, -1, -1));
         jPanel2.add(txtEspecialidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 180, -1));
 
-        jLabel3.setFont(new java.awt.Font("Imprint MT Shadow", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/profesor.png"))); // NOI18N
         jLabel3.setText("Datos de docente ");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 13, -1, -1));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
-        btnCancelar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnCancelar.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
@@ -447,7 +450,7 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         spinnerSueldo.setModel(new javax.swing.SpinnerNumberModel(0.0d, 0.0d, 10000.0d, 1.0d));
         jPanel2.add(spinnerSueldo, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 160, -1));
 
-        jLabel14.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(126, 56, 64));
         jLabel14.setText("Sueldo");
         jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 370, -1, -1));
@@ -457,9 +460,9 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 360, -1, -1));
         jPanel2.add(fechaContratacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 440, 190, -1));
 
-        jLabel16.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(126, 56, 64));
-        jLabel16.setText("Fecha de contratacion:");
+        jLabel16.setText("Fecha de Contratación:");
         jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 440, -1, -1));
 
         jDlgDocente.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 889, 660));
@@ -468,7 +471,7 @@ public class VistaDocente extends javax.swing.JInternalFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel17.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(126, 56, 64));
         jLabel17.setText("Buscar:");
 
@@ -487,13 +490,13 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         jScrollPane2.setViewportView(tblDlgPersonas);
 
         btnCargarPer.setBackground(new java.awt.Color(255, 255, 255));
-        btnCargarPer.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
-        btnCargarPer.setForeground(new java.awt.Color(235, 117, 117));
+        btnCargarPer.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnCargarPer.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarPer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarPer.setText("Cargar");
         btnCargarPer.setBorder(null);
 
-        jLabel19.setFont(new java.awt.Font("Imprint MT Shadow", 0, 24)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(235, 117, 117));
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel19.setText("Cargar Personas");
@@ -513,21 +516,22 @@ public class VistaDocente extends javax.swing.JInternalFrame {
                                 .addComponent(btnCargarPer, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(27, 27, 27)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel19)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel17)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(txtBuscarPer, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addComponent(jLabel17)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtBuscarPer, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 336, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(136, 136, 136)
+                .addComponent(jLabel19)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel17)
                     .addComponent(txtBuscarPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)

@@ -181,7 +181,7 @@ public class ControladorLogin {
     private ImageIcon iSlider1 = new ImageIcon("src\\imagenes\\Imagen1.jpg"),
             iSlider2 = new ImageIcon("src\\imagenes\\Imagen2.jpg"),
             iSlider3 = new ImageIcon("src\\imagenes\\Imagen3.jpg"),
-            Principal = new ImageIcon("src\\imagenes\\LogoAcademiaB.png");
+            Principal = new ImageIcon("src\\imagenes\\logorosado.png");
 
     public void crarImagen1() {
         vista.getLblImagen1().setIcon(EscalarImagen(iSlider2, vista.getLblImagen1()));

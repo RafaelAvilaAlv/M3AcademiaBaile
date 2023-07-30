@@ -418,12 +418,12 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel19.setFont(new java.awt.Font("Roboto Black", 0, 18)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(235, 117, 117));
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel19.setText("Cargar personas");
 
-        jLabel17.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(126, 56, 64));
         jLabel17.setText("Buscar:");
 
@@ -441,7 +441,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         jScrollPane2.setViewportView(tblDlgPersonas);
 
         btnCargarPer.setBackground(new java.awt.Color(255, 255, 255));
-        btnCargarPer.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
+        btnCargarPer.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCargarPer.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarPer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarPer.setText("Cargar");
@@ -455,15 +455,16 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel19)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel17)
                         .addGap(18, 18, 18)
                         .addComponent(txtBuscarPer, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnCargarPer, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 739, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 739, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel19)
+                        .addGap(94, 94, 94)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -496,75 +497,79 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
 
         jDlgEstudiante.setResizable(false);
 
-        jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 28)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/graduado.png"))); // NOI18N
         jLabel3.setText("Registrar estudiante");
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(838, 602));
 
-        jLabel12.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(126, 56, 64));
-        jLabel12.setText("Direccion:");
+        jLabel12.setText("Dirección:");
 
         btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
-        btnGuardar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(235, 117, 117));
+        btnGuardar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnGuardar.setForeground(new java.awt.Color(126, 56, 64));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
         btnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(126, 56, 64));
         jLabel8.setText("Fecha de nacimiento:");
 
-        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Cédula:");
 
-        jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(126, 56, 64));
         jLabel9.setText("Genero:");
 
-        jLabel4.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(126, 56, 64));
         jLabel4.setText("Primer nombre:");
 
         genero.add(masculino);
-        masculino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        masculino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        masculino.setForeground(new java.awt.Color(126, 56, 64));
         masculino.setText("M");
 
         genero.add(femenino);
-        femenino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        femenino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        femenino.setForeground(new java.awt.Color(126, 56, 64));
         femenino.setText("F");
 
-        jLabel5.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(126, 56, 64));
         jLabel5.setText("Segundo nombre:");
 
         genero.add(noBinario);
-        noBinario.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        noBinario.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        noBinario.setForeground(new java.awt.Color(126, 56, 64));
         noBinario.setText("No binario");
 
-        jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(126, 56, 64));
         jLabel10.setText("Telefono:");
 
-        jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Primer apellido:");
 
-        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(126, 56, 64));
         jLabel11.setText("Email:");
 
-        jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(126, 56, 64));
         jLabel7.setText("Segundo apellido:");
 
         btnBuscarPersona.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarPersona.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        btnBuscarPersona.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnBuscarPersona.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarPersona.setText("Buscar");
@@ -573,8 +578,8 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         btnBuscarPersona.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
-        btnCancelar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnCancelar.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
@@ -629,7 +634,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
                         .addComponent(btnGuardar)
                         .addGap(112, 112, 112)
                         .addComponent(btnCancelar)))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -679,7 +684,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
                         .addComponent(masculino)
                         .addComponent(femenino)
                         .addComponent(noBinario)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -690,19 +695,19 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         jDlgEstudiante.getContentPane().setLayout(jDlgEstudianteLayout);
         jDlgEstudianteLayout.setHorizontalGroup(
             jDlgEstudianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDlgEstudianteLayout.createSequentialGroup()
-                .addGap(38, 38, 38)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDlgEstudianteLayout.createSequentialGroup()
+                .addContainerGap(345, Short.MAX_VALUE)
                 .addComponent(jLabel3)
-                .addContainerGap(515, Short.MAX_VALUE))
+                .addGap(205, 205, 205))
             .addGroup(jDlgEstudianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 849, Short.MAX_VALUE))
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 864, Short.MAX_VALUE))
         );
         jDlgEstudianteLayout.setVerticalGroup(
             jDlgEstudianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jDlgEstudianteLayout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(23, 23, 23)
                 .addComponent(jLabel3)
-                .addContainerGap(558, Short.MAX_VALUE))
+                .addContainerGap(549, Short.MAX_VALUE))
             .addGroup(jDlgEstudianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jDlgEstudianteLayout.createSequentialGroup()
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -719,7 +724,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         jtxtTituloMenu.setText("Estudiante");
 
         btnAsignar.setBackground(new java.awt.Color(255, 255, 255));
-        btnAsignar.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        btnAsignar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnAsignar.setForeground(new java.awt.Color(126, 56, 64));
         btnAsignar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/AñadirDetalles.png"))); // NOI18N
         btnAsignar.setText("Asignar");
@@ -727,7 +732,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         btnAsignar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnEliminar.setBackground(new java.awt.Color(255, 255, 255));
-        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnEliminar.setForeground(new java.awt.Color(126, 56, 64));
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/compartimiento.png"))); // NOI18N
         btnEliminar.setText("Eliminar");
@@ -735,7 +740,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         btnEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnModificar.setBackground(new java.awt.Color(255, 255, 255));
-        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnModificar.setForeground(new java.awt.Color(126, 56, 64));
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificar.setText("Modificar");
@@ -743,14 +748,14 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         btnModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnActualizar.setBackground(new java.awt.Color(255, 255, 255));
-        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnActualizar.setForeground(new java.awt.Color(126, 56, 64));
         btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("Actualizar");
         btnActualizar.setBorder(null);
         btnActualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(126, 56, 64));
         jLabel1.setText("Buscar:");
 
@@ -768,7 +773,7 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(TblEstudiante);
 
         btnImprimir.setBackground(new java.awt.Color(255, 255, 255));
-        btnImprimir.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        btnImprimir.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnImprimir.setForeground(new java.awt.Color(126, 56, 64));
         btnImprimir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imprimir.png"))); // NOI18N
         btnImprimir.setText("Imprimir");
@@ -784,21 +789,21 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(171, 171, 171)
+                .addGap(145, 145, 145)
                 .addComponent(btnAsignar)
                 .addGap(29, 29, 29)
                 .addComponent(btnModificar)
                 .addGap(40, 40, 40)
                 .addComponent(btnActualizar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addGap(27, 27, 27)
                 .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(475, 475, 475)
                 .addComponent(jtxtTituloMenu)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 520, Short.MAX_VALUE))
             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
         );
         layout.setVerticalGroup(
@@ -806,17 +811,22 @@ public class VistaEstudiante extends javax.swing.JInternalFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jtxtTituloMenu)
-                .addGap(31, 31, 31)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAsignar)
-                    .addComponent(btnEliminar)
-                    .addComponent(btnModificar)
-                    .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1)
-                    .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnImprimir))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel1)
+                            .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAsignar)
+                            .addComponent(btnEliminar)
+                            .addComponent(btnModificar)
+                            .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnImprimir))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 487, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 493, Short.MAX_VALUE))
         );
 
         pack();

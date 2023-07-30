@@ -302,7 +302,7 @@ public class ControladorPrincipal {
         control.iniciarControl();
     }
     public Image getIconImage(){
-        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/LogoAcademiaB.png"));
+        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/logorosado.png"));
         return retValue;
     }
 }

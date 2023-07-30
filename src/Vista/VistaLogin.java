@@ -90,7 +90,7 @@ public class VistaLogin extends javax.swing.JFrame {
     public Image getIconImage() {
         Image retValue = Toolkit.getDefaultToolkit()
                 .getImage(ClassLoader.
-                        getSystemResource("imagenes/LogoAcademiaB.png"));
+                        getSystemResource("imagenes/logorosado.png"));
         return retValue;
     }
 
@@ -115,8 +115,6 @@ public class VistaLogin extends javax.swing.JFrame {
         lblOcultar = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
-        jSeparator2 = new javax.swing.JSeparator();
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagenlogin.png"))); // NOI18N
         jLabel4.setToolTipText("");
@@ -124,94 +122,90 @@ public class VistaLogin extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblImagen1.setToolTipText("");
         lblImagen1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(lblImagen1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 540, 380));
+        jPanel1.add(lblImagen1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, 460, 330));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Berlin Sans FB", 1, 60)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/usuario_1.png"))); // NOI18N
         jLabel1.setText("Inicio de sesión");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1.setBackground(new java.awt.Color(255, 204, 204));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/circulo-de-flecha.png"))); // NOI18N
         jButton1.setBorder(null);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 560, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 530, -1, -1));
 
-        jButton2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2.setBackground(new java.awt.Color(255, 204, 204));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/circulo-de-flecha.png"))); // NOI18N
         jButton2.setBorder(null);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 560, -1, -1));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 530, -1, -1));
 
-        jButton3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3.setBackground(new java.awt.Color(255, 204, 204));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/circulo-de-flecha.png"))); // NOI18N
         jButton3.setBorder(null);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 560, -1, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 530, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondoceleste.png"))); // NOI18N
         jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 650));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 650));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtUsuario.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
-        txtUsuario.setBorder(null);
-        jPanel2.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 230, 30));
+        txtUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 204, 204), 2));
+        jPanel2.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 230, 30));
 
         jLabel18.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel18.setText("Contraseña:");
-        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 300, -1, -1));
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 340, -1, -1));
 
         txtContrasenia.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         txtContrasenia.setText("jPasswordField1");
-        txtContrasenia.setBorder(null);
+        txtContrasenia.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 204, 204), 2));
         txtContrasenia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtContraseniaActionPerformed(evt);
             }
         });
-        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 360, 230, 30));
+        jPanel2.add(txtContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 400, 230, 30));
 
         lblMostrar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblMostrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-open.png"))); // NOI18N
-        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, -1, -1));
+        jPanel2.add(lblMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 400, -1, -1));
 
-        btnIniciarSesion.setBackground(new java.awt.Color(235, 117, 117));
+        btnIniciarSesion.setBackground(new java.awt.Color(255, 204, 204));
         btnIniciarSesion.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
-        btnIniciarSesion.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciarSesion.setText("Iniciar sesión");
-        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, -1, -1));
+        jPanel2.add(btnIniciarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 490, -1, -1));
 
         lblOcultar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         lblOcultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eye-close.png"))); // NOI18N
-        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, -1, -1));
+        jPanel2.add(lblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 400, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel14.setText("Usuario:");
-        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, -1, -1));
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dance-3169_128.gif"))); // NOI18N
         jLabel13.setText("    Datos del Usuario");
-        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 480, -1));
-        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 260, 300, -1));
-        jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 390, 300, 10));
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 480, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 40, 610, 550));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 0, 560, 650));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1428, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -241,8 +235,6 @@ public class VistaLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator2;
     public javax.swing.JLabel lblImagen1;
     private javax.swing.JLabel lblMostrar;
     private javax.swing.JLabel lblOcultar;

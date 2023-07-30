@@ -161,13 +161,13 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         reservas1.setOpaque(true);
         panelestado.add(reservas1, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 20, 140, 34));
 
-        panelFondo.add(panelestado, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 500, 1052, 123));
+        panelFondo.add(panelestado, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 420, 1052, 160));
 
         jtxtTituloMenu.setFont(new java.awt.Font("Roboto Black", 1, 36)); // NOI18N
         jtxtTituloMenu.setForeground(new java.awt.Color(235, 117, 117));
         jtxtTituloMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dash.png"))); // NOI18N
         jtxtTituloMenu.setText("Tablero");
-        panelFondo.add(jtxtTituloMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 1037, 65));
+        panelFondo.add(jtxtTituloMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, 1037, 65));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 48)); // NOI18N
@@ -176,13 +176,13 @@ public class VistaDashboard extends javax.swing.JInternalFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/danzas.jpg"))); // NOI18N
         jLabel3.setToolTipText("");
         jLabel3.setAutoscrolls(true);
-        panelFondo.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 1100, 294));
+        panelFondo.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 1100, 294));
 
         jLabel4.setFont(new java.awt.Font("Roboto", 1, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(235, 117, 117));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Estado");
-        panelFondo.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, 1051, 54));
+        panelFondo.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 1051, 54));
 
         getContentPane().add(panelFondo, java.awt.BorderLayout.CENTER);
 
