@@ -322,32 +322,32 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel2.add(txtCedula, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, 162, 30));
 
         jLabel6.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Cédula:");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel7.setForeground(new java.awt.Color(126, 56, 64));
         jLabel7.setText("Nombre:");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 161, -1, -1));
         jPanel2.add(txtNombreDocente, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 162, 30));
         jPanel2.add(txtCodigoProductor, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 42, -1));
 
         jLabel8.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel8.setForeground(new java.awt.Color(126, 56, 64));
         jLabel8.setText("Apellido:");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
         jPanel2.add(txtApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 220, 162, 30));
 
         jLabel9.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel9.setForeground(new java.awt.Color(126, 56, 64));
         jLabel9.setText("Experencia:");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
         jPanel2.add(txtEspecialidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, 162, 30));
 
         btnBuscarProductor.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarProductor.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnBuscarProductor.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarProductor.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnBuscarProductor.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarProductor.setText("Buscar");
         btnBuscarProductor.setBorder(null);
@@ -356,20 +356,20 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel2.add(btnBuscarProductor, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel13.setForeground(new java.awt.Color(126, 56, 64));
         jLabel13.setText("Fecha de asignación:");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, -1, -1));
         jPanel2.add(fechaDeAsignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 110, 190, 30));
 
         jLabel12.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel12.setForeground(new java.awt.Color(126, 56, 64));
         jLabel12.setText("Nombre del Evento:");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, -1, -1));
         jPanel2.add(txtNombreAsignatura, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, 166, 30));
 
         btnBuscarSetGrabacion.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarSetGrabacion.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnBuscarSetGrabacion.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarSetGrabacion.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnBuscarSetGrabacion.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarSetGrabacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarSetGrabacion.setText("Buscar");
         btnBuscarSetGrabacion.setBorder(null);
@@ -380,7 +380,7 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
 
         btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(235, 117, 117));
+        btnGuardar.setForeground(new java.awt.Color(126, 56, 64));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
@@ -389,26 +389,26 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelar.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
         btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 320, 96, 31));
 
-        jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(235, 117, 117));
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/profesor.png"))); // NOI18N
         jLabel5.setText("Asignar Evento");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 20, -1, -1));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(235, 117, 117));
         jLabel2.setText("Información del Evento");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 160, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setText("Información del director");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
 
@@ -416,11 +416,11 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jDlgDirigir.getContentPane().setLayout(jDlgDirigirLayout);
         jDlgDirigirLayout.setHorizontalGroup(
             jDlgDirigirLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 886, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 887, Short.MAX_VALUE)
         );
         jDlgDirigirLayout.setVerticalGroup(
             jDlgDirigirLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         jDlgBuscarSetgrabacion.setResizable(false);
@@ -428,12 +428,12 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel18.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel18.setForeground(new java.awt.Color(126, 56, 64));
         jLabel18.setText("Buscar:");
 
         btnCargarSetGrabacion.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarSetGrabacion.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnCargarSetGrabacion.setForeground(new java.awt.Color(235, 117, 117));
+        btnCargarSetGrabacion.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarSetGrabacion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarSetGrabacion.setText("Cargar");
         btnCargarSetGrabacion.setBorder(null);
@@ -455,8 +455,8 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         ));
         jScrollPane2.setViewportView(tblDlgjSetGrabacion);
 
-        jLabel20.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel20.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(235, 117, 117));
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel20.setText("Cargar Evento");
 
@@ -465,21 +465,20 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(31, 31, 31)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 581, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 581, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel18)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtBuscarSetGrabacion, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnCargarSetGrabacion, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(185, 185, 185)
-                        .addComponent(jLabel20)))
+                        .addComponent(jLabel18)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtBuscarSetGrabacion, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnCargarSetGrabacion, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(40, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel20)
+                .addGap(192, 192, 192))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -513,24 +512,24 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel17.setFont(new java.awt.Font("Baskerville Old Face", 0, 19)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel17.setForeground(new java.awt.Color(126, 56, 64));
         jLabel17.setText("Buscar:");
         jPanel4.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
         jPanel4.add(txtBuscarProductor, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 90, 250, 30));
 
         btnCargarProductor.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarProductor.setFont(new java.awt.Font("Baskerville Old Face", 0, 19)); // NOI18N
-        btnCargarProductor.setForeground(new java.awt.Color(235, 117, 117));
+        btnCargarProductor.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarProductor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarProductor.setText("Cargar");
         btnCargarProductor.setBorder(null);
         jPanel4.add(btnCargarProductor, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 88, 39));
 
-        jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(235, 117, 117));
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel19.setText("Cargar Director Artistico");
-        jPanel4.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
+        jPanel4.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, -1, -1));
 
         tblDlgProductor.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -567,7 +566,7 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(126, 56, 64));
         jLabel1.setText("Buscar:");
 
@@ -613,44 +612,46 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(14, 14, 14)
-                        .addComponent(jLabel1)
-                        .addGap(18, 18, 18)
-                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(46, 46, 46)
-                        .addComponent(btnAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(30, 30, 30)
-                        .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(33, 33, 33)
-                        .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(31, 31, 31)
-                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jtxtTituloMenu)))
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addGap(14, 14, 14)
+                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(46, 46, 46)
+                .addComponent(btnAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33)
+                .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(31, 31, 31)
+                .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(59, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jtxtTituloMenu)
+                .addGap(350, 350, 350))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
-                .addComponent(jtxtTituloMenu)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(4, 4, 4)
-                        .addComponent(jLabel1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(1, 1, 1)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnAsignar)
-                            .addComponent(btnModificar)
-                            .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnEliminar)))
-                    .addComponent(txtBuscar))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jtxtTituloMenu)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(1, 1, 1)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(btnAsignar)
+                                    .addComponent(btnModificar)
+                                    .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEliminar)))
+                            .addComponent(txtBuscar))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(25, 25, 25))
         );
 
         TblDirigir.setModel(new javax.swing.table.DefaultTableModel(
@@ -661,7 +662,7 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Codigo Dirigir", "Codigo Productor", "Cedula", "Nombre y apellido", "Codigo Set Grabacion", "Nombre set de grabacion"
+                "Codigo Dirigir", "Codigo Director_Artistico", "Cedula", "Nombre y apellido", "Codigo del Evento", "Nombre del Evento"
             }
         ));
         jScrollPane1.setViewportView(TblDirigir);
@@ -678,7 +679,7 @@ public class VistaDirigir extends javax.swing.JInternalFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 435, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE))
         );
 
         pack();

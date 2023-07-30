@@ -321,13 +321,13 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel23.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel23.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(235, 117, 117));
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/aula_1.png"))); // NOI18N
         jLabel23.setText("Cargar Aula");
 
         jLabel24.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel24.setForeground(new java.awt.Color(126, 56, 64));
         jLabel24.setText("Buscar:");
 
         tblCargarAula.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -351,7 +351,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         btnCargarAula.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarAula.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnCargarAula.setForeground(new java.awt.Color(235, 117, 117));
+        btnCargarAula.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarAula.setText("Cargar");
         btnCargarAula.setBorder(null);
@@ -363,9 +363,6 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(203, 203, 203)
-                        .addComponent(jLabel23))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 643, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -374,13 +371,16 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(txtBuscarAula, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(329, 329, 329)
-                                .addComponent(btnCargarAula, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(20, Short.MAX_VALUE))
+                                .addComponent(btnCargarAula, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(218, 218, 218)
+                        .addComponent(jLabel23)))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel23)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -396,7 +396,9 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jDlgCargarAula.getContentPane().setLayout(jDlgCargarAulaLayout);
         jDlgCargarAulaLayout.setHorizontalGroup(
             jDlgCargarAulaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jDlgCargarAulaLayout.createSequentialGroup()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jDlgCargarAulaLayout.setVerticalGroup(
             jDlgCargarAulaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -407,13 +409,13 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel21.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel21.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(235, 117, 117));
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/diploma (1).png"))); // NOI18N
         jLabel21.setText("Cargar Curso");
 
         jLabel22.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel22.setForeground(new java.awt.Color(126, 56, 64));
         jLabel22.setText("Buscar:");
 
         tblCargarCurso.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -437,7 +439,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         btnCargarCurso.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarCurso.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnCargarCurso.setForeground(new java.awt.Color(235, 117, 117));
+        btnCargarCurso.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarCurso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarCurso.setText("Cargar");
         btnCargarCurso.setBorder(null);
@@ -446,10 +448,6 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(215, 215, 215)
-                .addComponent(jLabel21)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -462,20 +460,24 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnCargarCurso, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(221, 221, 221)
+                .addComponent(jLabel21)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
+                .addGap(25, 25, 25)
                 .addComponent(jLabel21)
-                .addGap(21, 21, 21)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtBuscarCurso, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel22)
                     .addComponent(btnCargarCurso, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(63, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jDlgCargarCusoLayout = new javax.swing.GroupLayout(jDlgCargarCuso.getContentPane());
@@ -486,32 +488,30 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         );
         jDlgCargarCusoLayout.setVerticalGroup(
             jDlgCargarCusoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDlgCargarCusoLayout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jDlgAsigAula.setResizable(false);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setForeground(new java.awt.Color(235, 117, 117));
+        jPanel4.setForeground(new java.awt.Color(126, 56, 64));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(126, 56, 64));
+        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/aula_1.png"))); // NOI18N
         jLabel3.setText("Asignar Aula");
-        jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, -1, -1));
+        jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 20, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Codigo Aula:");
         jPanel4.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 97, -1, -1));
         jPanel4.add(txtCodigoAula, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 94, 162, 30));
 
         btnBuscarAula.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarAula.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnBuscarAula.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarAula.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnBuscarAula.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarAula.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarAula.setText("Buscar");
         btnBuscarAula.setBorder(null);
@@ -521,25 +521,25 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jPanel4.add(txtNombreAula, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 162, 30));
 
         jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Nombre:");
         jPanel4.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 153, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel4.setForeground(new java.awt.Color(126, 56, 64));
         jLabel4.setText("Ubicacion:");
         jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 222, -1, -1));
         jPanel4.add(txtUbicacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 219, 162, 30));
 
         jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel5.setForeground(new java.awt.Color(126, 56, 64));
         jLabel5.setText("Capacidad:");
         jPanel4.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 287, -1, -1));
         jPanel4.add(txtCapacidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 284, 162, 30));
 
         btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(235, 117, 117));
+        btnGuardar.setForeground(new java.awt.Color(126, 56, 64));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
@@ -548,7 +548,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelar.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
@@ -556,12 +556,12 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jPanel4.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 96, 31));
 
         jLabel13.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel13.setForeground(new java.awt.Color(126, 56, 64));
         jLabel13.setText("Fecha de asignación:");
         jPanel4.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(448, 222, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel12.setForeground(new java.awt.Color(126, 56, 64));
         jLabel12.setText("Nombre del curso:");
         jPanel4.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 90, -1, -1));
         jPanel4.add(txtNombreCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 90, 166, 30));
@@ -569,8 +569,8 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jPanel4.add(fechaDeAsignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 220, 180, 30));
 
         btnBuscarCurso.setBackground(new java.awt.Color(255, 255, 255));
-        btnBuscarCurso.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        btnBuscarCurso.setForeground(new java.awt.Color(235, 117, 117));
+        btnBuscarCurso.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
+        btnBuscarCurso.setForeground(new java.awt.Color(126, 56, 64));
         btnBuscarCurso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/buscar.png"))); // NOI18N
         btnBuscarCurso.setText("Buscar");
         btnBuscarCurso.setBorder(null);
@@ -579,7 +579,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jPanel4.add(btnBuscarCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 90, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(235, 117, 117));
+        jLabel14.setForeground(new java.awt.Color(126, 56, 64));
         jLabel14.setText("Precio:");
         jPanel4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 150, -1, -1));
         jPanel4.add(txtPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 150, 166, 30));
@@ -588,13 +588,11 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         jDlgAsigAula.getContentPane().setLayout(jDlgAsigAulaLayout);
         jDlgAsigAulaLayout.setHorizontalGroup(
             jDlgAsigAulaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 858, Short.MAX_VALUE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 876, Short.MAX_VALUE)
         );
         jDlgAsigAulaLayout.setVerticalGroup(
             jDlgAsigAulaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDlgAsigAulaLayout.createSequentialGroup()
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 392, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         setBackground(new java.awt.Color(255, 255, 255));
@@ -602,12 +600,12 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(126, 56, 64));
         jLabel1.setText("Buscar:");
 
         btnAsignar.setBackground(new java.awt.Color(255, 255, 255));
-        btnAsignar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnAsignar.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         btnAsignar.setForeground(new java.awt.Color(126, 56, 64));
         btnAsignar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/AñadirDetalles.png"))); // NOI18N
         btnAsignar.setText("Asignar");
@@ -615,7 +613,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         btnAsignar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnModificar.setBackground(new java.awt.Color(255, 255, 255));
-        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnModificar.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         btnModificar.setForeground(new java.awt.Color(126, 56, 64));
         btnModificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificar.setText("Modificar");
@@ -623,7 +621,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         btnModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnActualizar.setBackground(new java.awt.Color(255, 255, 255));
-        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnActualizar.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         btnActualizar.setForeground(new java.awt.Color(126, 56, 64));
         btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/actualizar.png"))); // NOI18N
         btnActualizar.setText("Actualizar");
@@ -631,7 +629,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
         btnActualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btnEliminar.setBackground(new java.awt.Color(255, 255, 255));
-        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnEliminar.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N
         btnEliminar.setForeground(new java.awt.Color(126, 56, 64));
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/compartimiento.png"))); // NOI18N
         btnEliminar.setText("Eliminar");
@@ -649,38 +647,39 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jtxtTituloMenu)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(103, 103, 103)
-                        .addComponent(btnAsignar)
-                        .addGap(65, 65, 65)
-                        .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(64, 64, 64)
-                        .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(55, 55, 55)
-                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(74, Short.MAX_VALUE))
+                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                .addComponent(btnAsignar)
+                .addGap(65, 65, 65)
+                .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(64, 64, 64)
+                .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55)
+                .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(79, 79, 79))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(434, 434, 434)
+                .addComponent(jtxtTituloMenu)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addGap(21, 21, 21)
                 .addComponent(jtxtTituloMenu)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel1)
-                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnActualizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnEliminar))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(btnModificar)
-                        .addComponent(btnAsignar)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                        .addComponent(btnAsignar)
+                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel1)))
+                .addContainerGap())
         );
 
         tblAsigAula.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
@@ -710,7 +709,7 @@ public class VistaAsigAula extends javax.swing.JInternalFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 423, Short.MAX_VALUE))
+                .addComponent(jScrollPane1))
         );
 
         pack();
