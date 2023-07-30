@@ -80,8 +80,8 @@ public class ControladorInstrumento {
         vista.getjDlgInstrumento().setVisible(true);
         vista.getjDlgInstrumento().setSize(813, 488);
         vista.getjDlgInstrumento().setLocationRelativeTo(vista);
-        vista.getjDlgInstrumento().setName("Crear nuevo instrumento");
-        vista.getjDlgInstrumento().setTitle("Crear nuevo instrumento");
+        vista.getjDlgInstrumento().setName("Crear nueva indumentaria");
+        vista.getjDlgInstrumento().setTitle("Crear nueva indumentaria");
 
         vista.getTxtnombreset().setEnabled(false);
         vista.getTxtUbicacionSet().setEnabled(false);
@@ -104,7 +104,7 @@ public class ControladorInstrumento {
     }
 
     private void crearEditarInstrumento() {
-        if ("Crear nuevo instrumento".equals(vista.getjDlgInstrumento().getName())) {
+        if ("Crear nueva indumentaria".equals(vista.getjDlgInstrumento().getName())) {
 
             //INSERTAR
             if (validarDatos()) {
@@ -117,9 +117,9 @@ public class ControladorInstrumento {
 
                 if (ins.crearInstrumento() == null) {
                     vista.getjDlgInstrumento().setVisible(false);
-                    JOptionPane.showMessageDialog(vista, "Instrumento creado satisfactoriamente");
+                    JOptionPane.showMessageDialog(vista, "Indumentaria creada satisfactoriamente");
                 } else {
-                    JOptionPane.showMessageDialog(vista, "No se pudo crear el instrumento");
+                    JOptionPane.showMessageDialog(vista, "No se pudo crear la indumentaria");
                 }
             }
 
@@ -138,10 +138,10 @@ public class ControladorInstrumento {
 
                 if (inst.modificarInstrumento() == null) {
                     vista.getjDlgInstrumento().setVisible(false);
-                    JOptionPane.showMessageDialog(vista, "Instrumento modificado satisfactoriamente");
+                    JOptionPane.showMessageDialog(vista, "Indumentaria modificada satisfactoriamente");
 
                 } else {
-                    JOptionPane.showMessageDialog(vista, "No se pudo modificar el instrumento");
+                    JOptionPane.showMessageDialog(vista, "No se pudo modificar la indumentaria");
                 }
             }
         }
@@ -164,10 +164,10 @@ public class ControladorInstrumento {
                 codigo = Integer.parseInt(vista.getTblInstrumento().getValueAt(fila, 0).toString());
 
                 if (modelo.eliminarInstrumento(codigo) == null) {
-                    JOptionPane.showMessageDialog(null, "El instrumento fue eliminado exitosamente");
+                    JOptionPane.showMessageDialog(null, "La indumentaria fue eliminada exitosamente");
                     cargarTablaDeInstrumento();//Actualizo la tabla con los datos
                 } else {
-                    JOptionPane.showMessageDialog(null, "El instrumento no pudo ser eliminado");
+                    JOptionPane.showMessageDialog(null, "La indumentaria no pudo ser eliminada");
                 }
             }
         }
@@ -188,8 +188,8 @@ public class ControladorInstrumento {
             vista.getjDlgInstrumento().setVisible(true);
             vista.getjDlgInstrumento().setSize(813, 488);
             vista.getjDlgInstrumento().setLocationRelativeTo(null);
-            vista.getjDlgInstrumento().setName("Modificar instrumento");
-            vista.getjDlgInstrumento().setTitle("Modificar instrumento");
+            vista.getjDlgInstrumento().setName("Modificar indumentaria");
+            vista.getjDlgInstrumento().setTitle("Modificar indumentaria");
 
             List<Instrumentos> listai = modelo.listaInstumentoTabla();
             List<SetGrabacion> listas = modeloSet.listaSetGrabTabla();
@@ -253,7 +253,7 @@ public class ControladorInstrumento {
         vista.getjDlgCargarSet().setVisible(true);
         vista.getjDlgCargarSet().setSize(701, 436);
         vista.getjDlgCargarSet().setLocationRelativeTo(vista);
-        vista.getjDlgCargarSet().setTitle("Seleccionar set de grabacion");
+        vista.getjDlgCargarSet().setTitle("Seleccionar evento");
 
         cargarDatosDeSetGrab();
         buscarSetDeGrabacion();
@@ -366,17 +366,17 @@ public class ControladorInstrumento {
         }
 
         if (vista.getTxtTipo().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Ingrese el tipo de instrumento");
+            JOptionPane.showMessageDialog(null, "Ingrese el tipo de indumentaria");
             validar = false;
         } else {
             if (!mivalidacion.validarTextoConEspacio(vista.getTxtTipo().getText())) {
-                JOptionPane.showMessageDialog(null, "Tipo de instrumento incorrecto");
+                JOptionPane.showMessageDialog(null, "Tipo de indumentaria incorrecto");
                 validar = false;
             }
         }
 
         if (vista.getTxtnombreset().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Seleccione un set de grabación");
+            JOptionPane.showMessageDialog(null, "Seleccione un evento");
             validar = false;
         }
 

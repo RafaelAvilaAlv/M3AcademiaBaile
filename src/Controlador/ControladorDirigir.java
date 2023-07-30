@@ -120,7 +120,7 @@ public class ControladorDirigir {
         vista.getjDlgBuscarProductor().setVisible(true);
         vista.getjDlgBuscarProductor().setSize(685, 418);
         vista.getjDlgBuscarProductor().setLocationRelativeTo(null);
-        vista.getjDlgBuscarProductor().setTitle("Seleccione un productor");
+        vista.getjDlgBuscarProductor().setTitle("Seleccione un director artistico");
         cargarRegistroDeProductores();
         buscarProductor();
     }
@@ -145,7 +145,7 @@ public class ControladorDirigir {
                 });
 
                 if (verificarDirigir) {
-                    JOptionPane.showMessageDialog(vista, "El productor ya se encuentra asignado al set de grabacion");
+                    JOptionPane.showMessageDialog(vista, "El director artistico ya se encuentra asignado al evento");
                 } else {
 
                     modelo.setDir_codpro(Integer.parseInt(vista.getTxtCodigoProductor().getText()));
@@ -439,7 +439,7 @@ public class ControladorDirigir {
         vista.getjDlgBuscarSetgrabacion().setVisible(true);
         vista.getjDlgBuscarSetgrabacion().setSize(619, 435);
         vista.getjDlgBuscarSetgrabacion().setLocationRelativeTo(null);
-        vista.getjDlgBuscarSetgrabacion().setTitle("Seleccione un set de grabacion");
+        vista.getjDlgBuscarSetgrabacion().setTitle("Seleccione un evento");
         cargarRegistroDeSetGrabacion();
         buscarSetGrabacion();
     }
@@ -541,7 +541,7 @@ public class ControladorDirigir {
         }
 
         if (vista.getTxtNombreAsignatura().getText().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Seleccione un set de grabacion");
+            JOptionPane.showMessageDialog(null, "Seleccione un evento");
             validar = false;
         }
 

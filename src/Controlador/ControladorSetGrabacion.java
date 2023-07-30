@@ -70,9 +70,9 @@ public class ControladorSetGrabacion {
         }
     }
     public void abrirDialogCrear() {
-        vista.getjDlgSetGrab().setName("Crear nuevo Set de grabacion");        
+        vista.getjDlgSetGrab().setName("Crear nuevo evento");        
         vista.getjDlgSetGrab().setSize(485, 411);
-        vista.getjDlgSetGrab().setTitle("Crear nuevo set de grabacion");
+        vista.getjDlgSetGrab().setTitle("Crear nuevo evento");
         vista.getjDlgSetGrab().setVisible(true);
         vista.getjDlgSetGrab().setLocationRelativeTo(null);
 
@@ -92,7 +92,7 @@ public class ControladorSetGrabacion {
     }
 
     private void crearEditarSetGrab() {
-        if ("Crear nuevo Set de grabacion".equals(vista.getjDlgSetGrab().getName())) {
+        if ("Crear nuevo evento".equals(vista.getjDlgSetGrab().getName())) {
             //INSERTAR
             if (validarDatos()) {
                 ModeloSetGrab set = new ModeloSetGrab();
@@ -103,10 +103,10 @@ public class ControladorSetGrabacion {
 
                 if (set.crearSetGrabacion() == null) {
                     vista.getjDlgSetGrab().setVisible(false);
-                    JOptionPane.showMessageDialog(vista, "Set de grabacion creado satisfactoriamente");
+                    JOptionPane.showMessageDialog(vista, "Evento creado satisfactoriamente");
                     cargarTablaDeSetGrab();
                 } else {
-                    JOptionPane.showMessageDialog(vista, "No se pudo crear el set de grabacion");
+                    JOptionPane.showMessageDialog(vista, "No se pudo crear el evento");
                 }
             }
 
@@ -123,10 +123,10 @@ public class ControladorSetGrabacion {
 
                 if (set.modificarSetGrabacion() == null) {
                     vista.getjDlgSetGrab().setVisible(false);
-                    JOptionPane.showMessageDialog(vista, "Set de grabacion modificado satisfactoriamente");
+                    JOptionPane.showMessageDialog(vista, "Evento modificado satisfactoriamente");
                     cargarTablaDeSetGrab();
                 } else {
-                    JOptionPane.showMessageDialog(vista, "No se pudo modificar el set de grabacion");
+                    JOptionPane.showMessageDialog(vista, "No se pudo modificar el evento");
                 }
             }
         }
@@ -150,10 +150,10 @@ public class ControladorSetGrabacion {
                 codigo = Integer.parseInt(vista.getTblSetGrab().getValueAt(fila, 0).toString());
 
                 if (modelo.eliminarSetGrabacion(codigo) == null) {
-                    JOptionPane.showMessageDialog(null, "El set de grabacion fue eliminado exitosamente");
+                    JOptionPane.showMessageDialog(null, "El evento fue eliminado exitosamente");
                     cargarTablaDeSetGrab();//Actualizo la tabla con los datos
                 } else {
-                    JOptionPane.showMessageDialog(null, "Error: El set de grabacion no pudo ser eliminado");
+                    JOptionPane.showMessageDialog(null, "Error: El evento no pudo ser eliminado");
                 }
             }
         }
@@ -168,10 +168,10 @@ public class ControladorSetGrabacion {
             JOptionPane.showMessageDialog(null, "Aun no ha seleccionado una fila");
         } else {
 
-            vista.getjDlgSetGrab().setName("Modificar Set de grabacion");
+            vista.getjDlgSetGrab().setName("Modificar evento");
             vista.getjDlgSetGrab().setLocationRelativeTo(null);
             vista.getjDlgSetGrab().setSize(464, 400);
-            vista.getjDlgSetGrab().setTitle("Modificar set de grabacion");
+            vista.getjDlgSetGrab().setTitle("Modificar evento");
             vista.getjDlgSetGrab().setVisible(true);
 
             List<SetGrabacion> listap = modelo.listaSetGrabTabla();
