@@ -90,7 +90,7 @@ public class ControladorProductor {
             vista.getjDlgProductor().setSize(817, 667);
             vista.getjDlgProductor().setLocationRelativeTo(null);
             vista.getjDlgProductor().setName("Modificar Director Artistico");
-            vista.getjDlgProductor().setTitle("Modificar productor");
+            vista.getjDlgProductor().setTitle("Modificar Director Artistico");
             bloquearCampos();
 
             //ModeloPersona modeloPersona = new ModeloPersona();

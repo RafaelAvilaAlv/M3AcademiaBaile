@@ -463,9 +463,9 @@ public class VistaDocente extends javax.swing.JInternalFrame {
         jLabel16.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(126, 56, 64));
         jLabel16.setText("Fecha de Contratación:");
-        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 440, -1, -1));
+        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 440, -1, -1));
 
-        jDlgDocente.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 889, 660));
+        jDlgDocente.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 660));
 
         jDlgBuscarPersonas.setResizable(false);
 

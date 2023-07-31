@@ -148,7 +148,7 @@ public class ControladorMatricula {
                     modelo.setMat_fechamatri(fechaSQL);
 
                     if (modelo.crearMatricula() == null) {
-                        JOptionPane.showMessageDialog(null, "Se registro satisfactoriamente la matricula.\nLa matrícula esta siendo enviada al email del estudiante...");
+                        JOptionPane.showMessageDialog(null, "Se registro satisfactoriamente la matricula");
                         cargarTablaDeMatriculas();
 
                         crearPdf();//LLamo al metodo de crear pdf y enviar email

@@ -483,94 +483,101 @@ public class VistaPersona extends javax.swing.JInternalFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel12.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(126, 56, 64));
-        jLabel12.setText("Direccion:");
+        jLabel12.setText("Dirección:");
 
-        jLabel8.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(126, 56, 64));
         jLabel8.setText("Fecha de nacimiento:");
 
-        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(126, 56, 64));
         jLabel2.setText("Cédula:");
 
-        jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(126, 56, 64));
-        jLabel9.setText("Genero:");
+        jLabel9.setText("Género:");
 
-        jLabel4.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(126, 56, 64));
         jLabel4.setText("Primer nombre:");
 
         genero.add(masculino);
-        masculino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        masculino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        masculino.setForeground(new java.awt.Color(126, 56, 64));
         masculino.setText("M");
 
         genero.add(femenino);
-        femenino.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        femenino.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        femenino.setForeground(new java.awt.Color(126, 56, 64));
         femenino.setText("F");
 
-        jLabel5.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(126, 56, 64));
         jLabel5.setText("Segundo nombre:");
 
         genero.add(noBinario);
-        noBinario.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        noBinario.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        noBinario.setForeground(new java.awt.Color(126, 56, 64));
         noBinario.setText("No binario");
 
         jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(126, 56, 64));
         jLabel10.setText("Telefono:");
 
-        jLabel6.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(126, 56, 64));
         jLabel6.setText("Primer apellido:");
 
-        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(126, 56, 64));
         jLabel11.setText("Email:");
 
-        jLabel7.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(126, 56, 64));
         jLabel7.setText("Segundo apellido:");
 
-        jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 28)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(235, 117, 117));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/personas.png"))); // NOI18N
         jLabel3.setText("Registrar persona");
 
         btnModificarPersona.setBackground(new java.awt.Color(255, 255, 255));
-        btnModificarPersona.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnModificarPersona.setForeground(new java.awt.Color(235, 117, 117));
+        btnModificarPersona.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnModificarPersona.setForeground(new java.awt.Color(126, 56, 64));
         btnModificarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar.png"))); // NOI18N
         btnModificarPersona.setText("Modificar");
         btnModificarPersona.setBorder(null);
         btnModificarPersona.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         rol.add(checkDocente);
-        checkDocente.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        checkDocente.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        checkDocente.setForeground(new java.awt.Color(126, 56, 64));
         checkDocente.setText("Docente");
 
         rol.add(checkProductor);
-        checkProductor.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        checkProductor.setText("Director musical");
+        checkProductor.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        checkProductor.setForeground(new java.awt.Color(126, 56, 64));
+        checkProductor.setText("Director Artístico");
 
-        lblRol.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        lblRol.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         lblRol.setForeground(new java.awt.Color(126, 56, 64));
         lblRol.setText("Asignar rol:");
 
         rol.add(checkEstudiante);
-        checkEstudiante.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        checkEstudiante.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        checkEstudiante.setForeground(new java.awt.Color(126, 56, 64));
         checkEstudiante.setText("Estudiante");
 
         rol.add(checkAdministrador);
-        checkAdministrador.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        checkAdministrador.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        checkAdministrador.setForeground(new java.awt.Color(126, 56, 64));
         checkAdministrador.setText("Administrador");
 
         btnCancelarPersona.setBackground(new java.awt.Color(255, 255, 255));
-        btnCancelarPersona.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
-        btnCancelarPersona.setForeground(new java.awt.Color(235, 117, 117));
+        btnCancelarPersona.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
+        btnCancelarPersona.setForeground(new java.awt.Color(126, 56, 64));
         btnCancelarPersona.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelarPersona.setText("Cancelar");
         btnCancelarPersona.setBorder(null);
@@ -581,66 +588,68 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(39, 39, 39)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel9)
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtPrimerNombre)
+                            .addComponent(txtSegundoNombre)
+                            .addComponent(txtPrimerApellido)
+                            .addComponent(txtSegundoApellido)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jLabel7)
-                                    .addComponent(jLabel9)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel2))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtPrimerNombre)
-                                    .addComponent(txtSegundoNombre)
-                                    .addComponent(txtPrimerApellido)
-                                    .addComponent(txtSegundoApellido)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(masculino)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(femenino)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(noBinario))
-                                    .addComponent(txtCedula)
-                                    .addComponent(txtTelefono)))
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)))
+                                .addComponent(masculino)
+                                .addGap(18, 18, 18)
+                                .addComponent(femenino)
+                                .addGap(18, 18, 18)
+                                .addComponent(noBinario))
+                            .addComponent(txtCedula)
+                            .addComponent(txtTelefono)))
+                    .addComponent(jLabel4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(227, 227, 227)
-                        .addComponent(btnModificarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 104, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jLabel12)
-                                .addComponent(jLabel11)
-                                .addComponent(checkAdministrador, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(checkDocente, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(checkEstudiante, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(lblRol)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addComponent(jLabel8)
-                            .addGap(18, 18, 18)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(txtEmail)
-                                .addComponent(txtDireccion)
-                                .addComponent(fechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addComponent(checkProductor, javax.swing.GroupLayout.Alignment.TRAILING))
-                    .addComponent(btnCancelarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel12)
+                            .addComponent(jLabel11)
+                            .addComponent(checkAdministrador, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(checkDocente, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(checkEstudiante, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblRol)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel8)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtEmail)
+                            .addComponent(txtDireccion)
+                            .addComponent(fechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(checkProductor, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(74, 74, 74))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(248, 248, 248)
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnModificarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(144, 144, 144)
+                .addComponent(btnCancelarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(239, 239, 239))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(19, 19, 19)
                 .addComponent(jLabel3)
-                .addGap(44, 44, 44)
+                .addGap(36, 36, 36)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -698,11 +707,11 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(txtTelefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
+                .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnCancelarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnModificarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(41, 41, 41))
+                    .addComponent(btnModificarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCancelarPersona, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jDlogRegistroLayout = new javax.swing.GroupLayout(jDlogRegistro.getContentPane());
@@ -728,7 +737,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jLabel15.setForeground(new java.awt.Color(126, 56, 64));
         jLabel15.setText("Especialidad:");
 
-        jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(235, 117, 117));
         jLabel14.setText("Registrar docente");
 
@@ -759,8 +768,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel14)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -777,7 +785,10 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                             .addComponent(spinnerSueldoDocente, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
                             .addComponent(btnCancelarDocente, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(fechaContratacionDocente, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(txtEspecialidad))))
+                            .addComponent(txtEspecialidad)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(68, 68, 68)
+                        .addComponent(jLabel14)))
                 .addContainerGap(38, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -821,7 +832,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
 
         jLabel21.setFont(new java.awt.Font("Baskerville Old Face", 0, 36)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(235, 117, 117));
-        jLabel21.setText("Registrar Director ");
+        jLabel21.setText("Registrar Director Artístico");
 
         jLabel18.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(126, 56, 64));
@@ -881,9 +892,9 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                         .addGap(78, 78, 78)
                         .addComponent(btnCancelarProductor, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                        .addGap(27, 27, 27)
+                        .addComponent(jLabel21)))
+                .addContainerGap(11, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1106,7 +1117,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
                 .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 313, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 223, Short.MAX_VALUE)
                 .addComponent(btnCrear)
                 .addGap(68, 68, 68)
                 .addComponent(btnModificar)
@@ -1114,7 +1125,7 @@ public class VistaPersona extends javax.swing.JInternalFrame {
                 .addComponent(btnActualizar1)
                 .addGap(19, 19, 19)
                 .addComponent(btnImprimir)
-                .addGap(21, 21, 21))
+                .addGap(111, 111, 111))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(494, 494, 494)
                 .addComponent(jtxtTituloMenu)

@@ -124,8 +124,8 @@ public class ControladorPersona {
         vista.getjDlgRegistroProductor().setVisible(true);
         vista.getjDlgRegistroProductor().setSize(424, 330);
         vista.getjDlgRegistroProductor().setLocationRelativeTo(vista.getCheckProductor());
-        vista.getjDlgRegistroProductor().setName("Registrar productor");
-        vista.getjDlgRegistroProductor().setTitle("Registrar productor");
+        vista.getjDlgRegistroProductor().setName("Registrar Director Artistico");
+        vista.getjDlgRegistroProductor().setTitle("Registrar Director Artistico");
 
     }
 
@@ -290,7 +290,7 @@ public class ControladorPersona {
                 });
 
                 if (asignar) {
-                    JOptionPane.showMessageDialog(null, "Esta persona ya ha sido asignada como productor");
+                    JOptionPane.showMessageDialog(null, "Esta persona ya ha sido asignada como Director Artistico");
                 } else {
 
                     //Setear Datos de empleado
@@ -308,7 +308,7 @@ public class ControladorPersona {
                         productor.setPro_expe(Integer.parseInt(vista.getSpinnerExperiencia().getValue().toString()));
 
                         if (productor.crearProductor() == null) {
-                            JOptionPane.showMessageDialog(null, "Productor asignado correctamente");
+                            JOptionPane.showMessageDialog(null, "Director Artistico asignado correctamente");
                             vista.getjDlgRegistroProductor().setVisible(false);
                             cargarPersonasTabla();
 
