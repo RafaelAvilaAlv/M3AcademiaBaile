@@ -3,12 +3,12 @@ package Controlador;
 import Modelo.ConexionPG;
 import Modelo.Empleado;
 import Modelo.ModeloEmpleado;
-import Modelo.ModeloProductor;
+import Modelo.ModeloDirector;
 import Modelo.ModeloPersona;
 import Modelo.Persona;
-import Modelo.Productor;
+import Modelo.Director;
 import Vista.VistaPrincipal;
-import Vista.VistaProductor;
+import Vista.VistaDirector;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.text.ParseException;
@@ -31,16 +31,16 @@ import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.view.JasperViewer;
 
-public class ControladorProductor {
+public class ControladoDirector {
 
-    ModeloProductor modelo;
-    VistaProductor vista;
+    ModeloDirector modelo;
+    VistaDirector vista;
 
     static boolean asignar;
 
     VistaPrincipal p = new VistaPrincipal();
 
-    public ControladorProductor(ModeloProductor modelo, VistaProductor vista) {
+    public ControladoDirector(ModeloDirector modelo, VistaDirector vista) {
         this.modelo = modelo;
         this.vista = vista;
         vista.setVisible(true);
@@ -68,7 +68,7 @@ public class ControladorProductor {
         DefaultTableModel tabla = (DefaultTableModel) vista.getTblProductor().getModel();
         tabla.setNumRows(0);
 
-        List<Productor> productores = modelo.listaProductorTabla();
+        List<Director> productores = modelo.listaProductorTabla();
         productores.stream().forEach(p -> {
             Object[] datos = {p.getPer_cedula(), p.getPer_primernom() + " " + p.getPer_apellidopater(), p.getEmp_codigo(), p.getEmp_salario().toString(), p.getPro_codigo(), p.getPro_expe()};
             tabla.addRow(datos);
@@ -94,7 +94,7 @@ public class ControladorProductor {
             bloquearCampos();
 
             //ModeloPersona modeloPersona = new ModeloPersona();
-            List<Productor> listap = modelo.listaProductorTabla();
+            List<Director> listap = modelo.listaProductorTabla();
 
             listap.stream().forEach(persona -> {
 
@@ -152,10 +152,10 @@ public class ControladorProductor {
 
                 ModeloPersona persona = new ModeloPersona();
                 ModeloEmpleado empleado = new ModeloEmpleado();
-                ModeloProductor productor = new ModeloProductor();
+                ModeloDirector productor = new ModeloDirector();
 
                 List<Empleado> empleados = empleado.listaEmpleadoTabla();
-                List<Productor> productores = productor.listaProductorTabla();
+                List<Director> productores = productor.listaProductorTabla();
 
                 empleados.stream().forEach(e -> {
                     if (persona.traerCodigoDePersonaCrear(vista.getTxtCedula().getText()) == e.getEmp_codper()) {
@@ -205,7 +205,7 @@ public class ControladorProductor {
             if (validarDatosModificar()) {
 
                 ModeloEmpleado empleado = new ModeloEmpleado();
-                ModeloProductor productor = new ModeloProductor();
+                ModeloDirector productor = new ModeloDirector();
 
                 //Setear los datos de empleado
                 empleado.setEmp_codigo(codigoEmpleado);
@@ -235,7 +235,7 @@ public class ControladorProductor {
     }
 
     public void eliminarProductor() {
-        ModeloProductor productor = new ModeloProductor();
+        ModeloDirector productor = new ModeloDirector();
 
         int fila = vista.getTblProductor().getSelectedRow();
 
@@ -279,7 +279,7 @@ public class ControladorProductor {
                 DefaultTableModel tabla = (DefaultTableModel) vista.getTblProductor().getModel();
                 tabla.setNumRows(0);
 
-                List<Productor> productores = modelo.buscarProductor(vista.getTxtBuscar().getText());
+                List<Director> productores = modelo.buscarProductor(vista.getTxtBuscar().getText());
                 productores.stream().forEach(p -> {
                     Object[] datos = {p.getPer_cedula(), p.getPer_primernom() + " " + p.getPer_apellidopater(), p.getEmp_codigo(), p.getEmp_salario().toString(), p.getPro_codigo(), p.getPro_expe()};
                     tabla.addRow(datos);

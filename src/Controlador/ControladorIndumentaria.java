@@ -1,11 +1,11 @@
 package Controlador;
 
 import Modelo.ConexionPG;
-import Modelo.ModeloSetGrab;
-import Modelo.Instrumentos;
-import Modelo.ModeloInstrumento;
-import Modelo.SetGrabacion;
-import Vista.VistaInstrumento;
+import Modelo.ModeloEvento;
+import Modelo.Indumentaria;
+import Modelo.ModeloIndumentaria;
+import Modelo.Evento;
+import Vista.VistaIndumentaria;
 import Vista.VistaPrincipal;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -24,14 +24,14 @@ import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.view.JasperViewer;
 
-public class ControladorInstrumento {
+public class ControladorIndumentaria {
 
-    ModeloInstrumento modelo;
-    VistaInstrumento vista;
+    ModeloIndumentaria modelo;
+    VistaIndumentaria vista;
 
     VistaPrincipal p = new VistaPrincipal();
 
-    public ControladorInstrumento(ModeloInstrumento modelo, VistaInstrumento vista) {
+    public ControladorIndumentaria(ModeloIndumentaria modelo, VistaIndumentaria vista) {
         this.modelo = modelo;
         this.vista = vista;
         vista.setVisible(true);
@@ -96,7 +96,7 @@ public class ControladorInstrumento {
         DefaultTableModel tabla = (DefaultTableModel) vista.getTblInstrumento().getModel();
         tabla.setNumRows(0);
 
-        List<Instrumentos> instrumento = modelo.listaInstumentoTabla();
+        List<Indumentaria> instrumento = modelo.listaInstumentoTabla();
         instrumento.stream().forEach(p -> {
             String[] datos = {String.valueOf(p.getIns_codigo()), p.getIns_nombre(), p.getIns_marca(), p.getIns_tipo(), String.valueOf(p.getIns_valor())};
             tabla.addRow(datos);
@@ -108,7 +108,7 @@ public class ControladorInstrumento {
 
             //INSERTAR
             if (validarDatos()) {
-                ModeloInstrumento ins = new ModeloInstrumento();
+                ModeloIndumentaria ins = new ModeloIndumentaria();
                 ins.setIns_nombre(vista.getTxtnombre().getText());
                 ins.setIns_setcodigo(Integer.parseInt(vista.getTxtCodigoSet().getText()));
                 ins.setIns_marca(vista.getTxtMarca().getText());
@@ -126,7 +126,7 @@ public class ControladorInstrumento {
         } else {
             //EDITAR
             if (validarDatos()) {
-                ModeloInstrumento inst = new ModeloInstrumento();
+                ModeloIndumentaria inst = new ModeloIndumentaria();
 
                 inst.setIns_codigo(codigoInstrumento);
                 inst.setIns_setcodigo(Integer.parseInt(vista.getTxtCodigoSet().getText()));
@@ -183,7 +183,7 @@ public class ControladorInstrumento {
         } else {
 
             vista.getTxtCodigoSet().setVisible(false);
-            ModeloSetGrab modeloSet = new ModeloSetGrab();
+            ModeloEvento modeloSet = new ModeloEvento();
 
             vista.getjDlgInstrumento().setVisible(true);
             vista.getjDlgInstrumento().setSize(813, 488);
@@ -191,8 +191,8 @@ public class ControladorInstrumento {
             vista.getjDlgInstrumento().setName("Modificar indumentaria");
             vista.getjDlgInstrumento().setTitle("Modificar indumentaria");
 
-            List<Instrumentos> listai = modelo.listaInstumentoTabla();
-            List<SetGrabacion> listas = modeloSet.listaSetGrabTabla();
+            List<Indumentaria> listai = modelo.listaInstumentoTabla();
+            List<Evento> listas = modeloSet.listaSetGrabTabla();
 
             listai.stream().forEach(instrumento -> {
 
@@ -237,7 +237,7 @@ public class ControladorInstrumento {
                 DefaultTableModel tabla = (DefaultTableModel) vista.getTblInstrumento().getModel();
                 tabla.setNumRows(0);
 
-                List<Instrumentos> instrumento = modelo.buscarInstrumento(vista.getTxtBuscar().getText());
+                List<Indumentaria> instrumento = modelo.buscarInstrumento(vista.getTxtBuscar().getText());
                 instrumento.stream().forEach(p -> {
                     String[] datos = {String.valueOf(p.getIns_codigo()), p.getIns_nombre(), p.getIns_marca(), p.getIns_tipo(), String.valueOf(p.getIns_valor())};
                     tabla.addRow(datos);
@@ -262,12 +262,12 @@ public class ControladorInstrumento {
 
     public void cargarDatosDeSetGrab() {
 
-        ModeloSetGrab modeloCliente = new ModeloSetGrab();
+        ModeloEvento modeloCliente = new ModeloEvento();
         vista.getTblSet().setRowHeight(25);
         DefaultTableModel estructuraTabla = (DefaultTableModel) vista.getTblSet().getModel();
         estructuraTabla.setRowCount(0);
 
-        List<SetGrabacion> listap = modeloCliente.listaSetGrabTabla();
+        List<Evento> listap = modeloCliente.listaSetGrabTabla();
 
         Holder<Integer> i = new Holder<>(0);
 
@@ -291,8 +291,8 @@ public class ControladorInstrumento {
             JOptionPane.showMessageDialog(null, "Aun no ha seleccionado una fila");
         } else {
 
-            ModeloSetGrab modeloSet = new ModeloSetGrab();
-            List<SetGrabacion> sets = modeloSet.listaSetGrabTabla();
+            ModeloEvento modeloSet = new ModeloEvento();
+            List<Evento> sets = modeloSet.listaSetGrabTabla();
             sets.stream().forEach(s -> {
 
                 if (s.getSet_codigo() == Integer.parseInt(vista.getTblSet().getValueAt(fila, 0).toString())) {
@@ -324,12 +324,12 @@ public class ControladorInstrumento {
             @Override
             public void keyReleased(KeyEvent e) {
 
-                ModeloSetGrab modeloSet = new ModeloSetGrab();
+                ModeloEvento modeloSet = new ModeloEvento();
 
                 DefaultTableModel tabla = (DefaultTableModel) vista.getTblSet().getModel();
                 tabla.setNumRows(0);
 
-                List<SetGrabacion> set = modeloSet.buscarSetGrabacion(vista.getTxtBuscarSet().getText());
+                List<Evento> set = modeloSet.buscarSetGrabacion(vista.getTxtBuscarSet().getText());
                 set.stream().forEach(p -> {
                     String[] datos = {String.valueOf(p.getSet_codigo()), p.getSet_nombre(), p.getSet_ubicacion(), p.getSet_tamanio()};
                     tabla.addRow(datos);

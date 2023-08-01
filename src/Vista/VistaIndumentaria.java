@@ -7,9 +7,9 @@ import javax.swing.JSpinner;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public class VistaInstrumento extends javax.swing.JInternalFrame {
+public class VistaIndumentaria extends javax.swing.JInternalFrame {
 
-    public VistaInstrumento() {
+    public VistaIndumentaria() {
         initComponents();
     }
 

@@ -19,12 +19,12 @@ import javax.swing.JTextField;
  *
  * @author Usuario
  */
-public class VistaSetGrab extends javax.swing.JInternalFrame {
+public class VistaEvento extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form VistaSetGrab
      */
-    public VistaSetGrab() {
+    public VistaEvento() {
         initComponents();
     }
 

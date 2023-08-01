@@ -12,9 +12,9 @@ import javax.swing.JSpinner;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public class VistaProductor extends javax.swing.JInternalFrame {
+public class VistaDirector extends javax.swing.JInternalFrame {
 
-    public VistaProductor() {
+    public VistaDirector() {
         initComponents();
     }
 
