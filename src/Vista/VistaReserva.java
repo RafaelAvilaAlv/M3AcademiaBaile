@@ -429,7 +429,6 @@ public class VistaReserva extends javax.swing.JInternalFrame {
         txtBuscarEstudiante = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblDlgEstudiante = new javax.swing.JTable();
-        jPanel6 = new javax.swing.JPanel();
         btnCargarEstudiante = new javax.swing.JButton();
         jDlgBuscarSet = new javax.swing.JDialog();
         jPanel3 = new javax.swing.JPanel();
@@ -438,7 +437,6 @@ public class VistaReserva extends javax.swing.JInternalFrame {
         txtBuscarSet = new javax.swing.JTextField();
         jScrollPane3 = new javax.swing.JScrollPane();
         tblDlgjSet = new javax.swing.JTable();
-        jPanel7 = new javax.swing.JPanel();
         btnCargarSet = new javax.swing.JButton();
         jDlgReserva = new javax.swing.JDialog();
         jPanel4 = new javax.swing.JPanel();
@@ -466,7 +464,6 @@ public class VistaReserva extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jPanel8 = new javax.swing.JPanel();
         btnGuardar = new javax.swing.JButton();
         btnCancelar = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
@@ -515,31 +512,13 @@ public class VistaReserva extends javax.swing.JInternalFrame {
 
         jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 135, 650, 260));
 
-        btnCargarEstudiante.setBackground(new java.awt.Color(204, 204, 204));
+        btnCargarEstudiante.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarEstudiante.setFont(new java.awt.Font("Roboto Medium", 0, 13)); // NOI18N
         btnCargarEstudiante.setForeground(new java.awt.Color(126, 56, 64));
         btnCargarEstudiante.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarEstudiante.setText("Cargar");
         btnCargarEstudiante.setBorder(null);
-
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCargarEstudiante, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCargarEstudiante, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-
-        jPanel2.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 60, -1, 60));
+        jPanel2.add(btnCargarEstudiante, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 70, 88, 39));
 
         javax.swing.GroupLayout jDlgBuscarEstudianteLayout = new javax.swing.GroupLayout(jDlgBuscarEstudiante.getContentPane());
         jDlgBuscarEstudiante.getContentPane().setLayout(jDlgBuscarEstudianteLayout);
@@ -584,37 +563,19 @@ public class VistaReserva extends javax.swing.JInternalFrame {
 
         jPanel3.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 570, 260));
 
-        btnCargarSet.setBackground(new java.awt.Color(204, 204, 204));
+        btnCargarSet.setBackground(new java.awt.Color(255, 255, 255));
         btnCargarSet.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCargarSet.setForeground(new java.awt.Color(235, 117, 117));
         btnCargarSet.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/asignar.png"))); // NOI18N
         btnCargarSet.setText("Cargar");
         btnCargarSet.setBorder(null);
-
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCargarSet, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCargarSet)
-                .addContainerGap())
-        );
-
-        jPanel3.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 60, -1, 50));
+        jPanel3.add(btnCargarSet, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 83, -1));
 
         javax.swing.GroupLayout jDlgBuscarSetLayout = new javax.swing.GroupLayout(jDlgBuscarSet.getContentPane());
         jDlgBuscarSet.getContentPane().setLayout(jDlgBuscarSetLayout);
         jDlgBuscarSetLayout.setHorizontalGroup(
             jDlgBuscarSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 636, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 617, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         jDlgBuscarSetLayout.setVerticalGroup(
             jDlgBuscarSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -734,42 +695,21 @@ public class VistaReserva extends javax.swing.JInternalFrame {
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
         jPanel4.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 20, 560));
 
-        jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
+        btnGuardar.setBackground(new java.awt.Color(255, 255, 255));
         btnGuardar.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(null);
         btnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jPanel4.add(btnGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 570, 95, -1));
 
+        btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
         btnCancelar.setFont(new java.awt.Font("Baskerville Old Face", 0, 18)); // NOI18N
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/boton-x.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
         btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 175, Short.MAX_VALUE)
-                .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnGuardar)
-                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel4.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 490, 390, 60));
+        jPanel4.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 570, 96, 31));
 
         javax.swing.GroupLayout jDlgReservaLayout = new javax.swing.GroupLayout(jDlgReserva.getContentPane());
         jDlgReserva.getContentPane().setLayout(jDlgReservaLayout);
@@ -979,9 +919,6 @@ public class VistaReserva extends javax.swing.JInternalFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
