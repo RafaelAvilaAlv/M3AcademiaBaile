@@ -296,7 +296,7 @@ public class VistaIndumentaria extends javax.swing.JInternalFrame {
 
         jLabel3.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(235, 117, 117));
-        jLabel3.setText("Información del instrumento");
+        jLabel3.setText("Información de la Indumentaria");
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
         btnCancelar.setBackground(new java.awt.Color(255, 255, 255));
